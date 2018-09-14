@@ -18,7 +18,7 @@ def modify_hue(img, deg):
 def change_hue(folder_path, sub_dir_list, deg=10):
 	for i in sub_dir_list:
 		img_path = os.path.join(folder_path, i)
-		img = cv2.imread(img_path)activate
+		img = cv2.imread(img_path)
 		hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 		hsv_img[:, :, 1] = hsv_img[:, :, 1] + deg
 		new_img = cv2.cvtColor(hsv_img, cv2.COLOR_HSV2BGR)
