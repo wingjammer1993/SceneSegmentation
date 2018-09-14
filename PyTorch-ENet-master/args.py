@@ -12,7 +12,7 @@ def get_arguments():
         "--mode",
         "-m",
         choices=['train', 'test', 'full'],
-        default='train',
+        default='test',
         help=("train: performs training and validation; test: tests the model "
               "found in \"--save_dir\" with name \"--name\" on \"--dataset\"; "
               "full: combines train and test modes. Default: train"))
@@ -67,9 +67,9 @@ def get_arguments():
     parser.add_argument(
         "--dataset-dir",
         type=str,
-        default="data/CamVid",
+        default=r"C:\Users\Amruta\Desktop\Project\Datasets\CamVid",
         help="Path to the root directory of the selected dataset. "
-        "Default: data/CamVid")
+        r"Default: C:\Users\Amruta\Desktop\Project\Datasets\CamVid")
     parser.add_argument(
         "--height",
         type=int,
