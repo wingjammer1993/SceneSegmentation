@@ -2,6 +2,8 @@
   <dictionary name="Amruta">
     <words>
       <w>filenames</w>
+      <w>istr</w>
+      <w>userpass</w>
     </words>
   </dictionary>
 </component>
