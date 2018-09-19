@@ -10,7 +10,7 @@ def slayer_six():
 		num = np.random.randint(50, 10000)
 		istr = os.urandom(num)
 		md5hash = hashlib.md5(istr).hexdigest()
-		slayer = md5hash[0:6] + md5hash[-6:]
+		slayer = md5hash[0:10] + md5hash[-10:]
 		if slayer in hash_str:
 			print(md5hash)
 			print(slayer)
