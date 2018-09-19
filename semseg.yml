@@ -47,5 +47,4 @@ dependencies:
   - wincertstore=0.2=py35hfebbdb8_0
   - zlib=1.2.11=h8395fce_2
   - pytorch=0.4.1=py35_cuda90_cudnn7he774522_1
-prefix: semseg
 
