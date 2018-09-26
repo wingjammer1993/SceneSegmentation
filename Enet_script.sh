@@ -15,7 +15,7 @@ module load intel/17.4
 module load python/3.5.1
 
 # === 4. Additional commands needed to run a program ===
-source /semseg/bin/activate
+source ./semseg/bin/activate
 
 # === 5. Running the program ===
-python /PyTorch-ENet-master/super_main.py
+python ./PyTorch-ENet-master/super_main.py
