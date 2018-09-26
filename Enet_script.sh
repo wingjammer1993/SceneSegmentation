@@ -17,5 +17,6 @@ module load python/3.5.1
 # === 4. Additional commands needed to run a program ===
 source ./semseg/bin/activate
 
+cd PyTorch-ENet-master
 # === 5. Running the program ===
-python ./PyTorch-ENet-master/super_main.py
+python ./super_main.py
