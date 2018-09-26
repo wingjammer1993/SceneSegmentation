@@ -278,7 +278,12 @@ def predict(model, images, class_encoding):
 
 
 # Run only if this module is being run directly
-if __name__ == '__main__':
+
+def modify_arguments():
+    return args
+
+
+def main_script(args):
 
     # Fail fast if the dataset directory doesn't exist
     assert os.path.isdir(
