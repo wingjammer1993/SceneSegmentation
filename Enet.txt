@@ -3,7 +3,7 @@
 # === 2. List of SBATCH arguements ===
 #SBATCH --nodes=1
 #SBATCH --time=00:59:00
-#SBATCH --qos=testing
+#SBATCH --qos=normal
 #SBATCH --partition=shas
 #SBATCH --ntasks=1
 #SBATCH --job-name=enet-hue-job
