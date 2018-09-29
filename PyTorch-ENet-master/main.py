@@ -17,9 +17,8 @@ from args import get_arguments
 from data.utils import enet_weighing, median_freq_balancing
 import utils
 
-
-args = get_arguments()
-use_cuda = args.cuda and torch.cuda.is_available()
+args = ""
+use_cuda = ""
 
 
 def load_dataset(dataset):
@@ -279,6 +278,10 @@ def predict(model, images, class_encoding):
 # Run only if this module is being run directly
 
 def modify_arguments():
+    global args
+    args = get_arguments()
+    global use_cuda
+    use_cuda = args.cuda and torch.cuda.is_available()
     return args
 
 
