@@ -21,7 +21,7 @@ args = ""
 use_cuda = ""
 
 
-def load_dataset(dataset):
+def load_dataset(dataset, color_mode="RGB", hue_value=0):
     print("\nLoading dataset...\n")
 
     print("Selected dataset:", args.dataset)
@@ -66,7 +66,10 @@ def load_dataset(dataset):
         args.dataset_dir,
         mode='test',
         transform=image_transform,
-        label_transform=label_transform)
+        label_transform=label_transform,
+        color_mode=color_mode,
+        hue_value=hue_value)
+
     test_loader = data.DataLoader(
         test_set,
         batch_size=args.batch_size,
@@ -307,7 +310,7 @@ def main_script(args):
         raise RuntimeError("\"{0}\" is not a supported dataset.".format(
             args.dataset))
 
-    loaders, w_class, class_encoding = load_dataset(dataset)
+    loaders, w_class, class_encoding = load_dataset(dataset, args.color_space, args.hue_value)
     train_loader, val_loader, test_loader = loaders
 
     if args.mode.lower() in {'train', 'full'}:

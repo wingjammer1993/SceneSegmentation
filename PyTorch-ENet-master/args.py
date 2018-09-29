@@ -91,6 +91,16 @@ def get_arguments():
         dest='ignore_unlabeled',
         action='store_false',
         help="The unlabeled class is not ignored.")
+    parser.add_argument(
+        "--color_space",
+        choices=['RGB', 'GS'],
+        default='RGB',
+        help="Color space")
+    parser.add_argument(
+        "--hue_value",
+        type=float,
+        default=0,
+        help="hue_value between 0 and 1")
 
     # Settings
     parser.add_argument(

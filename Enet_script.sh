@@ -17,6 +17,10 @@ module load python/3.5.1
 # === 4. Additional commands needed to run a program ===
 source ./semseg/bin/activate
 
+echo $1
+echo $2
+echo $3
+
 cd PyTorch-ENet-master
 # === 5. Running the program ===
-python ./super_main.py
+python ./super_main.py ----dataset-dir $1 --color_space $2 --hue_value $3
