@@ -17,7 +17,8 @@ from args import get_arguments
 from data.utils import enet_weighing, median_freq_balancing
 import utils
 
-use_cuda = args.cuda and torch.cuda.is_available()
+
+use_cuda = torch.cuda.is_available()
 
 def load_dataset(dataset):
     print("\nLoading dataset...\n")
