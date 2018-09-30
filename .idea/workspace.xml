@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Enet_script.sh" afterPath="$PROJECT_DIR$/Enet_script.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyTorch-ENet-master/args.py" afterPath="$PROJECT_DIR$/PyTorch-ENet-master/args.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyTorch-ENet-master/main.py" afterPath="$PROJECT_DIR$/PyTorch-ENet-master/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PyTorch-ENet-master/super_main.py" afterPath="$PROJECT_DIR$/PyTorch-ENet-master/super_main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,26 +25,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Enet_script.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Enet_script.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="args.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PyTorch-ENet-master/args.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -142,17 +119,6 @@
               <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
               <item name="PyTorch-ENet-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="PyTorch-ENet-master" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,11 +322,6 @@
           <line>293</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PyTorch-ENet-master/super_main.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="28" />
     </breakpoint-manager>
@@ -547,7 +508,7 @@
         <state relative-caret-position="260">
           <caret line="95" column="59" lean-forward="false" selection-start-line="95" selection-start-column="59" selection-end-line="95" selection-end-column="59" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,7 +518,7 @@
         <state relative-caret-position="159">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,7 +576,7 @@
         <state relative-caret-position="253">
           <caret line="138" column="32" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="32" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,18 +617,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Enet_script.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PyTorch-ENet-master/args.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Enet_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
