@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=00:59:00
 #SBATCH --qos=normal
-#SBATCH --partition=shas
+#SBATCH --partition=sgpu
 #SBATCH --ntasks=1
 #SBATCH --job-name=enet-hue-job
 #SBATCH --output=enet-hue-job.%j.out
