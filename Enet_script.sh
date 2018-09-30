@@ -17,10 +17,31 @@ module load python/3.5.1
 # === 4. Additional commands needed to run a program ===
 source ./semseg/bin/activate
 
-echo $1
-echo $2
-echo $3
-
 cd PyTorch-ENet-master
 # === 5. Running the program ===
-python ./super_main.py --dataset-dir $1 --color_space $2 --hue_value $3
+python ./super_main.py --dataset-dir $1
+
+python ./super_main.py --dataset-dir $1 --color_space GS
+
+python ./super_main.py --dataset-dir $1 --hue_value 0
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.1
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.2
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.3
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.4
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.5
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.6
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.7
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.8
+
+python ./super_main.py --dataset-dir $1 --hue_value 0.9
+
+python ./super_main.py --dataset-dir $1 --hue_value 1
+

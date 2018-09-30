@@ -167,7 +167,7 @@ class CamVid(data.Dataset):
         inp = inp.permute(1, 2, 0)
         inp = inp.numpy()
         hsv_img = cv2.cvtColor(inp, cv2.COLOR_RGB2HSV)
-        hsv_img[:, :, 1] = hsv_img[:, :, 1] + self.hue_value
+        hsv_img[:, :, 0] = self.hue_value
         new_img = cv2.cvtColor(hsv_img, cv2.COLOR_HSV2RGB)
         new_img = torch.from_numpy(new_img)
         new_img = new_img.permute(2, 0, 1)
