@@ -23,4 +23,4 @@ echo $3
 
 cd PyTorch-ENet-master
 # === 5. Running the program ===
-python ./super_main.py ----dataset-dir $1 --color_space $2 --hue_value $3
+python ./super_main.py --dataset-dir $1 --color_space $2 --hue_value $3
