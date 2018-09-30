@@ -160,7 +160,7 @@ class CamVid(data.Dataset):
             new_img[:, :, 1] = gs_img
             new_img[:, :, 2] = gs_img
         new_img = torch.from_numpy(new_img)
-        new_img = new_img.permute(0, 1, 2)
+        new_img = new_img.permute(2, 0, 1)
         return new_img
 
     def modify_hue_value(self, inp):
@@ -170,7 +170,7 @@ class CamVid(data.Dataset):
         hsv_img[:, :, 1] = hsv_img[:, :, 1] + self.hue_value
         new_img = cv2.cvtColor(hsv_img, cv2.COLOR_HSV2RGB)
         new_img = torch.from_numpy(new_img)
-        new_img = new_img.permute(0, 1, 2)
+        new_img = new_img.permute(2, 0, 1)
         return new_img
 
 
