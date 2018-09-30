@@ -331,7 +331,6 @@ def main_script(args):
         # Load the previoulsy saved model state to the ENet model
         model = utils.load_checkpoint(model, optimizer, args.save_dir,
                                       args.name)[0]
-        print(model)
         test(model, test_loader, w_class, class_encoding)
     else:
         # Should never happen...but just in case it does

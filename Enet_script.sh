@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === 2. List of SBATCH arguements ===
-#SBATCH --nodes=1
+#SBATCH --nodes=4
 #SBATCH --time=00:59:00
 #SBATCH --qos=normal
 #SBATCH --partition=sgpu
