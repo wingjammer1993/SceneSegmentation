@@ -10,6 +10,10 @@ from torch.autograd import Variable
 
 import transforms as ext_transforms
 from models.enet import ENet
+from models.enet import InitialBlock
+from models.enet import RegularBottleneck
+from models.enet import DownsamplingBottleneck
+from models.enet import UpsamplingBottleneck
 from train import Train
 from test import Test
 from metric.iou import IoU
@@ -287,6 +291,10 @@ def modify_arguments():
     use_cuda = args.cuda and torch.cuda.is_available()
     return args
 
+#
+# def save_activations(self, input, output):
+#     print('Inside ' + self.__class__.__name__ + ' forward')
+
 
 def main_script(args):
 
@@ -324,6 +332,11 @@ def main_script(args):
         if use_cuda:
             model = model.cuda()
 
+        # Here we register forward hooks for each layer.
+        # model.initial_block.register_forward_hook(save_activations)
+        # model.downsample1_0.register_forward_hook(save_activations)
+        # model.regular1_1.register_forward_hook(save_activations)
+        # model.downsample2_0.register_forward_hook(save_activations)
         # Initialize a optimizer just so we can retrieve the model from the
         # checkpoint
         optimizer = optim.Adam(model.parameters())
