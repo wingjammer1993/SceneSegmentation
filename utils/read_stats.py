@@ -2,6 +2,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def get_stats(file_text):
 	dict_hue = {}
 	elem = 0
@@ -20,7 +21,10 @@ if __name__ == '__main__':
 	filename = input()
 	file = open(filename)
 	output = get_stats(file)
-	plt.plot(list(output.keys()), list(output.values()), '*')
+	plt.scatter(list(output.keys()), list(output.values()))
+	plt.xlabel("+/- hue variation")
+	plt.ylabel("Mean IoU")
+	plt.title("ENet + CamVid")
 	plt.show()
 
 
