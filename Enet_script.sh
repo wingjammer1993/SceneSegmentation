@@ -23,23 +23,23 @@ python ./super_main.py --dataset-dir $1
 
 python ./super_main.py --dataset-dir $1 --color_space GS
 
-python ./super_main.py --dataset-dir $1 --hue_value 0.1
+python ./super_main.py --dataset-dir $1 --hue_value 10
 
-python ./super_main.py --dataset-dir $1 --hue_value 0.2
+python ./super_main.py --dataset-dir $1 --hue_value 50
 
-python ./super_main.py --dataset-dir $1 --hue_value 0.3
+python ./super_main.py --dataset-dir $1 --hue_value 100
 
-python ./super_main.py --dataset-dir $1 --hue_value 0.4
+python ./super_main.py --dataset-dir $1 --hue_value 150
 
-python ./super_main.py --dataset-dir $1 --hue_value 1
+python ./super_main.py --dataset-dir $1 --hue_value 200
 
-python ./super_main.py --dataset-dir $1 --hue_value -0.1
+python ./super_main.py --dataset-dir $1 --hue_value 250
 
-python ./super_main.py --dataset-dir $1 --hue_value -0.2
+python ./super_main.py --dataset-dir $1 --hue_value 300
 
-python ./super_main.py --dataset-dir $1 --hue_value -0.3
+python ./super_main.py --dataset-dir $1 --hue_value 350
 
-python ./super_main.py --dataset-dir $1 --hue_value -0.4
+python ./super_main.py --dataset-dir $1 --hue_value 400
 
-python ./super_main.py --dataset-dir $1 --hue_value -1
+python ./super_main.py --dataset-dir $1 --hue_value 450
 
