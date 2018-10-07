@@ -17,7 +17,8 @@ module load python/3.5.1
 # === 4. Additional commands needed to run a program ===
 source ./semseg/bin/activate
 
-cd PyTorch-Deeplab-master
+cd Pytorch-Deeplab-master
+
 # === 5. Running the program ===
 python ./evaluate.py --dataset-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth
 
