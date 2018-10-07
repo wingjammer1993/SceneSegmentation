@@ -22,5 +22,10 @@ cd Pytorch-Deeplab-master
 # === 5. Running the program ===
 python ./evaluate.py --data-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth --hue_value 0
 
+python ./evaluate.py --data-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth --hue_value 25
 
+python ./evaluate.py --data-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth --hue_value 50
 
+python ./evaluate.py --data-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth --hue_value 75
+
+python ./evaluate.py --data-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth --hue_value 100
