@@ -116,6 +116,7 @@ def main():
     if torch.cuda.is_available():
         args.device = torch.device('cuda')
         model = model.cuda()
+        print()
     else:
         args.device = torch.device('cpu')
 
@@ -131,8 +132,10 @@ def main():
         if index % 100 == 0:
             print('%d processd'%(index))
         image, label, size, name = batch
+        image = image.to(device=args.device)
+        label = label.to(device=args.device)
         size = size[0].numpy()
-        output = model(Variable(image, volatile=True)).to(device=args.device)
+        output = model(Variable(image, volatile=True))
         output = interp(output).cpu().data[0].numpy()
 
         output = output[:, :size[0], :size[1]]
