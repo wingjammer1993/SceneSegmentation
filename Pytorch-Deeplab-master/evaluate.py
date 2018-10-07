@@ -19,12 +19,13 @@ import matplotlib.pyplot as plt
 import torch.nn as nn
 IMG_MEAN = np.array((104.00698793,116.66876762,122.67891434), dtype=np.float32)
 
-DATA_DIRECTORY = '../../data/VOCdevkit/voc12'
+DATA_DIRECTORY = r'C:\Users\Amruta\Downloads\VOCdevkit\VOC2012'
 DATA_LIST_PATH = './dataset/list/val.txt'
 IGNORE_LABEL = 255
 NUM_CLASSES = 21
 NUM_STEPS = 1449 # Number of images in the validation set.
-RESTORE_FROM = './deeplab_resnet.ckpt'
+RESTORE_FROM = r'C:\Users\Amruta\Downloads\VOC12_scenes_20000.pth'
+
 
 def get_arguments():
     """Parse all the arguments provided from the CLI.
@@ -43,8 +44,6 @@ def get_arguments():
                         help="Number of classes to predict (including background).")
     parser.add_argument("--restore-from", type=str, default=RESTORE_FROM,
                         help="Where restore model parameters from.")
-    parser.add_argument("--gpu", type=int, default=0,
-                        help="choose gpu device.")
     return parser.parse_args()
 
 
@@ -69,6 +68,7 @@ def get_iou(data_list, class_num, save_path=None):
             f.write('meanIOU: ' + str(aveJ) + '\n')
             f.write(str(j_list)+'\n')
             f.write(str(M)+'\n')
+
 
 def show_all(gt, pred):
     import matplotlib.pyplot as plt
@@ -100,19 +100,24 @@ def show_all(gt, pred):
 
     plt.show()
 
+
 def main():
     """Create the model and start the evaluation process."""
     args = get_arguments()
 
-    gpu0 = args.gpu
-
     model = Res_Deeplab(num_classes=args.num_classes)
     
-    saved_state_dict = torch.load(args.restore_from)
+    saved_state_dict = torch.load(args.restore_from, map_location=lambda storage, loc: storage)
     model.load_state_dict(saved_state_dict)
 
     model.eval()
-    model.cuda(gpu0)
+
+    if torch.cuda.is_available():
+        args.device = torch.device('cuda')
+    else:
+        args.device = torch.device('cpu')
+
+    model.to(device=args.device)
 
     testloader = data.DataLoader(VOCDataSet(args.data_dir, args.data_list, crop_size=(505, 505), mean=IMG_MEAN, scale=False, mirror=False), 
                                     batch_size=1, shuffle=False, pin_memory=True)
@@ -125,10 +130,10 @@ def main():
             print('%d processd'%(index))
         image, label, size, name = batch
         size = size[0].numpy()
-        output = model(Variable(image, volatile=True).cuda(gpu0))
+        output = model(Variable(image, volatile=True)).to(device=args.device)
         output = interp(output).cpu().data[0].numpy()
 
-        output = output[:,:size[0],:size[1]]
+        output = output[:, :size[0], :size[1]]
         gt = np.asarray(label[0].numpy()[:size[0],:size[1]], dtype=np.int)
         
         output = output.transpose(1,2,0)
