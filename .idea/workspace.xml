@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="">
+    <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="Deeplab + PVOC">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/md5_collision.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pytorch-Deeplab-master/deeplab/datasets.py" afterPath="$PROJECT_DIR$/Pytorch-Deeplab-master/deeplab/datasets.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py" afterPath="$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pytorch-Deeplab-master/train.py" afterPath="$PROJECT_DIR$/Pytorch-Deeplab-master/train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,43 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py">
+      <file leaf-file-name="DeepLab_script.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepLab_script.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datasets.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pytorch-Deeplab-master/deeplab/datasets.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataloader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda3/envs/semseg/Lib/site-packages/torch/utils/data/dataloader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda3/envs/semseg/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+            <state relative-caret-position="567">
+              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -114,6 +80,7 @@
         <option value="$PROJECT_DIR$/Pytorch-Deeplab-master/deeplab/datasets.py" />
         <option value="$PROJECT_DIR$/Pytorch-Deeplab-master/train.py" />
         <option value="$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py" />
+        <option value="$PROJECT_DIR$/DeepLab_script.sh" />
       </list>
     </option>
   </component>
@@ -167,12 +134,6 @@
               <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
               <item name="Pytorch-Deeplab-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
-              <item name="Pytorch-Deeplab-master" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,6 +280,21 @@
       <option name="presentableId" value="Default" />
       <updated>1536795144550</updated>
     </task>
+    <task id="LOCAL-00001" summary="Deeplab + PVOC">
+      <created>1538937522007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538937522007</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Deeplab + PVOC">
+      <created>1538937588975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538937588975</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,6 +327,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Deeplab + PVOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deeplab + PVOC" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -361,7 +341,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py</url>
-          <line>105</line>
+          <line>106</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
@@ -370,14 +350,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyTorch-ENet-master/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/md5.py" />
     <entry file="file://$USER_HOME$/Downloads/typescript" />
     <entry file="file://$PROJECT_DIR$/utils/md5_collision.py" />
     <entry file="file://$PROJECT_DIR$/utils/host.py" />
@@ -540,14 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Enet_script.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2932">
-          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -732,10 +696,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLab_script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Enet_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        <state relative-caret-position="619">
+          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLab_script.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding />
         </state>
       </provider>
