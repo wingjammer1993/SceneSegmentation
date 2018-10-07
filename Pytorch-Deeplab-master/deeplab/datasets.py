@@ -51,7 +51,7 @@ class VOCDataSet(data.Dataset):
         label = cv2.imread(datafiles["label"], cv2.IMREAD_GRAYSCALE)
         # Hue variation code
         hsv_img = cv2.cvtColor(image_orig, cv2.COLOR_BGR2HSV)
-        hsv_img[:, :, 0] = hsv_img[:, :, 0] + self.hue_value
+        hsv_img[:, :, 0] = hsv_img[:, :, 0] + float(self.hue_value)
         image = cv2.cvtColor(hsv_img, cv2.COLOR_HSV2BGR)
         # Hue variation code ends
         size = image.shape
