@@ -5,6 +5,7 @@ from multiprocessing import Pool
 import copyreg as copy_reg
 import types
 
+
 def _pickle_method(m):
     if m.im_self is None:
         return getattr, (m.im_class, m.im_func.func_name)
@@ -38,14 +39,14 @@ class ConfusionMatrix(object):
 
     def recall(self):
         recall = 0.0
-        for i in xrange(self.nclass):
+        for i in range(self.nclass):
             recall += self.M[i, i] / np.sum(self.M[:, i])
 
         return recall/self.nclass
 
     def accuracy(self):
         accuracy = 0.0
-        for i in xrange(self.nclass):
+        for i in range(self.nclass):
             accuracy += self.M[i, i] / np.sum(self.M[i, :])
 
         return accuracy/self.nclass
@@ -53,7 +54,7 @@ class ConfusionMatrix(object):
     def jaccard(self):
         jaccard = 0.0
         jaccard_perclass = []
-        for i in xrange(self.nclass):
+        for i in range(self.nclass):
             jaccard_perclass.append(self.M[i, i] / (np.sum(self.M[i, :]) + np.sum(self.M[:, i]) - self.M[i, i]))
 
         return np.sum(jaccard_perclass)/len(jaccard_perclass), jaccard_perclass, self.M
