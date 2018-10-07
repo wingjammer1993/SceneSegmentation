@@ -133,7 +133,6 @@ def main():
             print('%d processd'%(index))
         image, label, size, name = batch
         image = image.to(device=args.device)
-        label = label.to(device=args.device)
         size = size[0].numpy()
         output = model(Variable(image, volatile=True))
         output = interp(output).cpu().data[0].numpy()
