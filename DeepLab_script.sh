@@ -20,7 +20,7 @@ source ./semseg/bin/activate
 cd Pytorch-Deeplab-master
 
 # === 5. Running the program ===
-python ./evaluate.py --dataset-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth
+python ./evaluate.py --data-dir /projects/amra8468/VOCdevkit/VOC2012 --restore-from /projects/amra8468/VOC12_scenes_20000.pth
 
 
 
