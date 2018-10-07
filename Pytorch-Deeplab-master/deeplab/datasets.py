@@ -11,7 +11,7 @@ from torch.utils import data
 
 
 class VOCDataSet(data.Dataset):
-    def __init__(self, root, list_path, max_iters=None, crop_size=(321, 321), mean=(128, 128, 128), scale=True, mirror=True, ignore_label=255):
+    def __init__(self, root, list_path, hue_value=0, max_iters=None, crop_size=(321, 321), mean=(128, 128, 128), scale=True, mirror=True, ignore_label=255):
         self.root = root
         self.list_path = list_path
         self.crop_h, self.crop_w = crop_size
@@ -19,6 +19,7 @@ class VOCDataSet(data.Dataset):
         self.ignore_label = ignore_label
         self.mean = mean
         self.is_mirror = mirror
+        self.hue_value = hue_value
         # self.mean_bgr = np.array([104.00698793, 116.66876762, 122.67891434])
         self.img_ids = [i_id.strip() for i_id in open(list_path)]
         if not max_iters==None:
@@ -37,6 +38,7 @@ class VOCDataSet(data.Dataset):
     def __len__(self):
         return len(self.files)
 
+    @staticmethod
     def generate_scale_label(self, image, label):
         f_scale = 0.5 + random.randint(0, 11) / 10.0
         image = cv2.resize(image, None, fx=f_scale, fy=f_scale, interpolation = cv2.INTER_LINEAR)
@@ -45,8 +47,13 @@ class VOCDataSet(data.Dataset):
 
     def __getitem__(self, index):
         datafiles = self.files[index]
-        image = cv2.imread(datafiles["img"], cv2.IMREAD_COLOR)
+        image_orig = cv2.imread(datafiles["img"], cv2.IMREAD_COLOR)
         label = cv2.imread(datafiles["label"], cv2.IMREAD_GRAYSCALE)
+        # Hue variation code
+        hsv_img = cv2.cvtColor(image_orig, cv2.COLOR_BGR2HSV)
+        hsv_img[:, :, 0] = hsv_img[:, :, 0] + self.hue_value
+        image = cv2.cvtColor(hsv_img, cv2.COLOR_HSV2BGR)
+        # Hue variation code ends
         size = image.shape
         name = datafiles["name"]
         if self.scale:

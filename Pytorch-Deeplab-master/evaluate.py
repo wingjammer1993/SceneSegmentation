@@ -23,7 +23,7 @@ DATA_DIRECTORY = r'C:\Users\Amruta\Downloads\VOCdevkit\VOC2012'
 DATA_LIST_PATH = './dataset/list/val.txt'
 IGNORE_LABEL = 255
 NUM_CLASSES = 21
-NUM_STEPS = 1449 # Number of images in the validation set.
+NUM_STEPS = 1449  # Number of images in the validation set.
 RESTORE_FROM = r'C:\Users\Amruta\Downloads\VOC12_scenes_20000.pth'
 
 # Inference script for DeepLab + PASCAL VOC Segmentation, with option of cpu and gpu
@@ -45,10 +45,12 @@ def get_arguments():
                         help="Number of classes to predict (including background).")
     parser.add_argument("--restore-from", type=str, default=RESTORE_FROM,
                         help="Where restore model parameters from.")
+    parser.add_argument("--hue_value", type=str, default=0,
+                        help="Where restore model parameters from.")
     return parser.parse_args()
 
 
-def get_iou(data_list, class_num, save_path=None):
+def get_iou(data_list, class_num, hue_val, save_path=None):
     from multiprocessing import Pool 
     from deeplab.metric import ConfusionMatrix
 
@@ -63,9 +65,9 @@ def get_iou(data_list, class_num, save_path=None):
         ConfM.addM(m)
 
     aveJ, j_list, M = ConfM.jaccard()
+    print('hue value is {}'.format(hue_val))
     print('meanIOU: ' + str(aveJ) + '\n')
-    print(str(j_list) + '\n')
-    print(str(M) + '\n')
+    print('class scores: ' + str(j_list) + '\n')
     if save_path:
         with open(save_path, 'w') as f:
             f.write('meanIOU: ' + str(aveJ) + '\n')
@@ -124,8 +126,9 @@ def main():
 
     print('the model is operating on {}'.format(args.device))
 
-    testloader = data.DataLoader(VOCDataSet(args.data_dir, args.data_list, crop_size=(505, 505), mean=IMG_MEAN, scale=False, mirror=False), 
-                                    batch_size=1, shuffle=False, pin_memory=True)
+    testloader = data.DataLoader(VOCDataSet(args.data_dir, args.data_list, hue_value=args.hue_value,
+                                            crop_size=(505, 505), mean=IMG_MEAN, scale=False, mirror=False),
+                                            batch_size=1, shuffle=False, pin_memory=True)
 
     interp = nn.Upsample(size=(505, 505), mode='bilinear')
     data_list = []
@@ -148,7 +151,7 @@ def main():
         # show_all(gt, output)
         data_list.append([gt.flatten(), output.flatten()])
 
-    get_iou(data_list, args.num_classes)
+    get_iou(data_list, args.num_classes, args.hue_value)
 
 
 if __name__ == '__main__':
