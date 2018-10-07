@@ -123,7 +123,7 @@ def main():
     print('the model is operating on {}'.format(args.device))
 
     testloader = data.DataLoader(VOCDataSet(args.data_dir, args.data_list, crop_size=(505, 505), mean=IMG_MEAN, scale=False, mirror=False), 
-                                    batch_size=10, shuffle=False, pin_memory=True)
+                                    batch_size=1, shuffle=False, pin_memory=True)
 
     interp = nn.Upsample(size=(505, 505), mode='bilinear')
     data_list = []
