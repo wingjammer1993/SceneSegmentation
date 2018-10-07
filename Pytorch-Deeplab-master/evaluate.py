@@ -108,7 +108,7 @@ def main():
 
     model = Res_Deeplab(num_classes=args.num_classes)
     
-    saved_state_dict = torch.load(args.restore_from, map_location=lambda storage, loc: storage)
+    saved_state_dict = torch.load(args.restore_from)
     model.load_state_dict(saved_state_dict)
 
     model.eval()
