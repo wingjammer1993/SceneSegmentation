@@ -26,6 +26,7 @@ NUM_CLASSES = 21
 NUM_STEPS = 1449 # Number of images in the validation set.
 RESTORE_FROM = r'C:\Users\Amruta\Downloads\VOC12_scenes_20000.pth'
 
+# Inference script for DeepLab + PASCAL VOC Segmentation
 
 def get_arguments():
     """Parse all the arguments provided from the CLI.
