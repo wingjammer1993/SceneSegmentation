@@ -18,10 +18,11 @@ def get_stats(file_text):
 
 
 if __name__ == '__main__':
-	filename = input()
+	filename = "enet-hue-job.1287986.out"
 	file = open(filename)
 	output = get_stats(file)
-	plt.scatter(list(output.keys()), list(output.values()))
+	plt.bar(list(output.keys()), list(output.values()))
+	plt.axhline(y=0.3, color='r', linestyle='dotted')
 	plt.xlabel("+/- hue variation")
 	plt.ylabel("Mean IoU")
 	plt.title("ENet + CamVid")
