@@ -2,6 +2,9 @@ import os
 from collections import OrderedDict
 import torch.utils.data as data
 from . import utils
+import cv2
+import torch
+import numpy as np
 
 
 class Cityscapes(data.Dataset):
@@ -72,12 +75,17 @@ class Cityscapes(data.Dataset):
                  mode='train',
                  transform=None,
                  label_transform=None,
-                 loader=utils.pil_loader):
+                 loader=utils.pil_loader,
+                 color_mode="RGB",
+                 hue_value=0):
+
         self.root_dir = root_dir
         self.mode = mode
         self.transform = transform
         self.label_transform = label_transform
         self.loader = loader
+        self.color_mode = color_mode
+        self.hue_value = hue_value
 
         if self.mode.lower() == 'train':
             # Get the training data and labels filepaths
@@ -147,6 +155,11 @@ class Cityscapes(data.Dataset):
         if self.label_transform is not None:
             label = self.label_transform(label)
 
+        if self.color_mode != "RGB":
+            img = self.modify_color_mode(img)
+        if self.color_mode == "RGB" and self.hue_value != 0:
+            img = self.modify_hue_value(img)
+
         return img, label
 
     def __len__(self):
@@ -160,3 +173,30 @@ class Cityscapes(data.Dataset):
         else:
             raise RuntimeError("Unexpected dataset mode. "
                                "Supported modes are: train, val and test")
+
+    def modify_color_mode(self, inp):
+        inp = inp.permute(1, 2, 0)
+        inp = inp.numpy()
+        new_img = np.zeros_like(inp)
+        if self.color_mode == "GS":
+            gs_img = cv2.cvtColor(inp, cv2.COLOR_RGB2GRAY)
+            new_img[:, :, 0] = gs_img
+            new_img[:, :, 1] = gs_img
+            new_img[:, :, 2] = gs_img
+        new_img = torch.from_numpy(new_img)
+        new_img = new_img.permute(2, 0, 1)
+        return new_img
+
+    def modify_hue_value(self, inp):
+        inp = inp.permute(1, 2, 0)
+        inp = inp.numpy()
+        hsv_img = cv2.cvtColor(inp, cv2.COLOR_RGB2HSV)
+        hsv_img[:, :, 0] = hsv_img[:, :, 0] + self.hue_value
+        new_img = cv2.cvtColor(hsv_img, cv2.COLOR_HSV2RGB)
+        new_img = torch.from_numpy(new_img)
+        new_img = new_img.permute(2, 0, 1)
+        return new_img
+
+
+
+
