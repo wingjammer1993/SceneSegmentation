@@ -67,7 +67,7 @@ def get_arguments():
     parser.add_argument(
         "--dataset-dir",
         type=str,
-        default=r"C:\Users\Amruta\Desktop\Project\Datasets\CamVid",
+        default=r"C:\Users\Amruta\Desktop\Project\Datasets\Cityscapes_Test",
         help="Path to the root directory of the selected dataset. "
         r"Default: C:\Users\Amruta\Desktop\Project\Datasets\CamVid")
     parser.add_argument(
@@ -78,7 +78,7 @@ def get_arguments():
     parser.add_argument(
         "--width",
         type=int,
-        default=480,
+        default=512,
         help="The image height. Default: 480")
     parser.add_argument(
         "--weighing",

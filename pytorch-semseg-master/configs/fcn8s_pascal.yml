@@ -1,18 +1,18 @@
 model:
-    arch: fcn8s
+    arch: segnet
 data:
-    dataset: pascal
-    train_split: train_aug
+    dataset: cityscapes
+    train_split: train
     val_split: val
-    img_rows: 'same'
-    img_cols: 'same'
-    path: /private/home/meetshah/datasets/VOC/060817/VOCdevkit/VOC2012/
+    img_rows: 360
+    img_cols: 480
+    path: \projects\amra8468\cityscapes
 training:
-    train_iters: 300000
+    train_iters: 100
     batch_size: 1
-    val_interval: 1000
-    n_workers: 16
-    print_interval: 50
+    val_interval: 20
+    n_workers: 1
+    print_interval: 10
     optimizer:
         name: 'sgd'
         lr: 1.0e-10
@@ -22,5 +22,4 @@ training:
         name: 'cross_entropy'
         size_average: False
     lr_schedule:
-    resume: fcn8s_pascal_best_model.pkl
-z
+    resume:
