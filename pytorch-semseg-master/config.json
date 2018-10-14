@@ -36,6 +36,6 @@
   
   "cityscapes":
   {
-    "data_path": "/home/amra8468/cityscapes"
+    "data_path": "/projects/amra8468/cityscapes"
   }
 }

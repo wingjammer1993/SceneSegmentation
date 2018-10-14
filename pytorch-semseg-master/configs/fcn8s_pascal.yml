@@ -6,7 +6,7 @@ data:
     val_split: val
     img_rows: 360
     img_cols: 480
-    path: \projects\amra8468\cityscapes
+    path: C:\Users\Amruta\Desktop\Project\Datasets\Cityscapes_Test
 training:
     train_iters: 100
     batch_size: 1

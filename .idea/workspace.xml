@@ -4,6 +4,7 @@
     <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/config.json" afterPath="$PROJECT_DIR$/pytorch-semseg-master/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/configs/fcn8s_pascal.yml" afterPath="$PROJECT_DIR$/pytorch-semseg-master/configs/fcn8s_pascal.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +24,9 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-912">
-              <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -35,8 +34,8 @@
       <file leaf-file-name="fcn8s_pascal.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/fcn8s_pascal.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -45,61 +44,21 @@
       <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
+            <state relative-caret-position="445">
               <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/utils.py">
+      <file leaf-file-name="cityscapes_loader.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="223" column="29" lean-forward="false" selection-start-line="223" selection-start-column="29" selection-end-line="223" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="segnet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/segnet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1286">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unet.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/unet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda3/envs/semseg/Lib/site-packages/torch/nn/modules/module.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="478" column="18" lean-forward="false" selection-start-line="478" selection-start-column="18" selection-end-line="478" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data_parallel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda3/envs/semseg/Lib/site-packages/torch/nn/parallel/data_parallel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -217,6 +176,25 @@
               <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
               <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ptsemseg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ptsemseg" type="462c0819:PsiDirectoryNode" />
+              <item name="loader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -547,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539556806978</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added cityscapes hue variation">
+      <created>1539557414627</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1539557414627</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -563,7 +548,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7744875" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47722095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2425968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -629,19 +614,22 @@
           <line>344</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="87" />
+      <option name="time" value="89" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PyTorch-ENet-master/metric/confusionmatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1863">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pytorch-Deeplab-master/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -933,16 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Miniconda3/envs/semseg/Lib/site-packages/torch/nn/parallel/data_parallel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -953,7 +931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/unet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="658">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
@@ -985,16 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepLab_script.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
@@ -1003,17 +971,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/camvid_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/fcn8s_pascal.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
+        <state relative-caret-position="445">
           <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
