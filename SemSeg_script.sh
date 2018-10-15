@@ -20,4 +20,4 @@ source ./semseg/bin/activate
 cd pytorch-semseg-master
 
 # === 5. Running the program ===
-python ./train.py
+python ./train.py --config $1
