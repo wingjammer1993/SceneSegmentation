@@ -14,7 +14,7 @@ training:
     n_workers: 5
     print_interval: 10
     optimizer:
-        name: 'adam'
+        name: 'sgd'
         lr: 1.0e-10
         weight_decay: 0.0005
         momentum: 0.99
