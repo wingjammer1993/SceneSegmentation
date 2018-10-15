@@ -2,7 +2,7 @@
 
 # === 2. List of SBATCH arguements ===
 #SBATCH --nodes=4
-#SBATCH --time=50:00:00
+#SBATCH --time=23:00:00
 #SBATCH --qos=long
 #SBATCH --partition=sgpu
 #SBATCH --ntasks=1
