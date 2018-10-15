@@ -8,9 +8,9 @@ data:
     img_cols: 480
     path: /projects/amra8468/cityscapes
 training:
-    train_iters: 100
+    train_iters: 20
     batch_size: 1
-    val_interval: 20
+    val_interval: 1
     n_workers: 1
     print_interval: 10
     optimizer:
