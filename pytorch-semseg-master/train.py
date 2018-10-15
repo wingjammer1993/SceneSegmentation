@@ -163,9 +163,9 @@ def train(cfg, writer, logger):
                         pred = outputs.data.max(1)[1].cpu().numpy()
                         gt = labels_val.data.cpu().numpy()
 
-
                         running_metrics_val.update(gt, pred)
                         val_loss_meter.update(val_loss.item())
+                        print(i_val)
 
                 writer.add_scalar('loss/val_loss', val_loss_meter.avg, i+1)
                 logger.info("Iter %d Loss: %.4f" % (i + 1, val_loss_meter.avg))
