@@ -9,6 +9,7 @@ from ptsemseg.models.icnet import *
 from ptsemseg.models.linknet import *
 from ptsemseg.models.frrn import *
 from .enet import *
+from .deeplab import *
 
 
 def get_model(model_dict, n_classes, version=None):
@@ -45,6 +46,9 @@ def get_model(model_dict, n_classes, version=None):
     elif name == "enet":
         model = model(num_classes=n_classes, **param_dict)
 
+    elif name == "deeplab":
+        model = Res_Deeplab(num_classes=n_classes, **param_dict)
+
     else:
         model = model(n_classes=n_classes, **param_dict)
 
@@ -66,6 +70,7 @@ def _get_model_instance(name):
             "frrnA": frrn,
             "frrnB": frrn,
             "enet": ENet,
+            "deeplab": None,
         }[name]
     except:
         raise("Model {} not available".format(name))
