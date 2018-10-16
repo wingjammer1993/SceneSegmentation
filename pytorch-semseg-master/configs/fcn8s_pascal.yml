@@ -22,4 +22,4 @@ training:
         name: 'cross_entropy'
         size_average: False
     lr_schedule:
-    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/fcn8s_pascal/91231/segnet_cityscapes_best_model.pkl
+    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/fcn8s_pascal/42928/segnet_cityscapes_best_model.pkl
