@@ -128,9 +128,11 @@ def train(cfg, writer, logger):
 
             optimizer.zero_grad()
             outputs = model(images)
+            if cfg['model']['arch'] == 'deeplab':
+                interp = nn.Upsample(size=(cfg['data']['img_rows'], cfg['data']['img_cols']), mode='bilinear')
+                outputs = interp(outputs)
 
             loss = loss_fn(input=outputs, target=labels)
-
             loss.backward()
             optimizer.step()
             
@@ -158,6 +160,10 @@ def train(cfg, writer, logger):
                         labels_val = labels_val.to(device)
 
                         outputs = model(images_val)
+                        if cfg['model']['arch'] == 'deeplab':
+                            interp = nn.Upsample(size=(cfg['data']['img_rows'], cfg['data']['img_cols']),
+                                                 mode='bilinear')
+                            outputs = interp(outputs)
                         val_loss = loss_fn(input=outputs, target=labels_val)
 
                         pred = outputs.data.max(1)[1].cpu().numpy()
