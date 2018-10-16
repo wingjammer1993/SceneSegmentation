@@ -36,6 +36,6 @@
   
   "cityscapes":
   {
-    "data_path": "C:\Users\Amruta\Desktop\Project\Datasets\Cityscapes_Test"
+    "data_path": "/projects/amra8468/cityscapes"
   }
 }

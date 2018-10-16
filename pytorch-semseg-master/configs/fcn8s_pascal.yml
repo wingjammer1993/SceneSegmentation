@@ -8,7 +8,7 @@ data:
     img_cols: 480
     path: /projects/amra8468/cityscapes
 training:
-    train_iters: 30000
+    train_iters: 20000
     batch_size: 10
     val_interval: 1000
     n_workers: 5
@@ -22,4 +22,4 @@ training:
         name: 'cross_entropy'
         size_average: False
     lr_schedule:
-    resume: a.pkl
+    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/fcn8s_pascal/91231/segnet_cityscapes_best_model.pkl
