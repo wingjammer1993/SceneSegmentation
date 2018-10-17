@@ -9,6 +9,7 @@
       <w>istr</w>
       <w>segnet</w>
       <w>userpass</w>
+      <w>valloader</w>
     </words>
   </dictionary>
 </component>
