@@ -215,7 +215,7 @@ if __name__ == "__main__":
         "--config",
         nargs="?",
         type=str,
-        default="configs/pspnet_cityscapes.yml",
+        default="configs/enet_cityscapes.yml",
         help="Configuration file to use"
     )
 
