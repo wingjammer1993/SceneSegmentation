@@ -30,7 +30,7 @@ def validate(cfg, args):
     data_loader = get_loader(cfg['data']['dataset'])
     data_path = cfg['data']['path']
 
-    loader = data_loader(data_path, split=cfg['data']['test_split'], is_transform=True,
+    loader = data_loader(data_path, split=cfg['data']['val_split'], is_transform=True,
                          img_size=(cfg['data']['img_rows'], cfg['data']['img_rows']))
 
     n_classes = loader.n_classes
@@ -38,7 +38,7 @@ def validate(cfg, args):
     running_metrics = runningScore(n_classes)
 
     model = get_model(cfg['model'], n_classes).to(device)
-    state = convert_state_dict(torch.load(args.model_path)["model_state"])
+    state = convert_state_dict(torch.load(args.model_path))
     model.load_state_dict(state)
     model.eval()
     model.to(device)
@@ -66,14 +66,14 @@ if __name__ == "__main__":
         "--config",
         nargs="?",
         type=str,
-        default="configs/fcn8s_pascal.yml",
+        default="configs/enet_cityscapes.yml",
         help="Config file to be used",
     )
     parser.add_argument(
         "--model_path",
         nargs="?",
         type=str,
-        default="fcn8s_pascal_1_26.pkl",
+        default="enet_cityscapes_best_model.pkl",
         help="Path to the saved model",
     )
 
