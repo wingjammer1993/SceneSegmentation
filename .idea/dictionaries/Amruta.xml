@@ -4,8 +4,10 @@
       <w>cityscapes</w>
       <w>cuda</w>
       <w>deeplab</w>
+      <w>enet</w>
       <w>filenames</w>
       <w>istr</w>
+      <w>segnet</w>
       <w>userpass</w>
     </words>
   </dictionary>
