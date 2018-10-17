@@ -102,6 +102,7 @@ class AdjustBrightness(object):
                                     random.uniform(1 - self.bf, 
                                                    1 + self.bf)), mask
 
+
 class AdjustContrast(object):
     def __init__(self, cf):
         self.cf = cf
@@ -111,6 +112,7 @@ class AdjustContrast(object):
         return tf.adjust_contrast(img, 
                                   random.uniform(1 - self.cf, 
                                                  1 + self.cf)), mask
+
 
 class CenterCrop(object):
     def __init__(self, size):
@@ -236,6 +238,7 @@ class RandomRotate(object):
                       resample=Image.NEAREST,
                       fillcolor=250,
                       shear=0.0))
+
 
 
 
