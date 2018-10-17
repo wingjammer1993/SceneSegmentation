@@ -22,6 +22,9 @@ from ptsemseg.metrics import runningScore
 from ptsemseg.utils import convert_state_dict
 from ptsemseg.augmentations import get_composed_augmentations
 torch.backends.cudnn.benchmark = True
+import visdom
+
+# vis = visdom.Visdom()
 
 
 def validate(cfg, args):
@@ -51,12 +54,17 @@ def validate(cfg, args):
     model.to(device)
 
     for i, (images, labels) in enumerate(valloader):
-
+        # vis.images(images)
         images = images.to(device)
         outputs = model(images)
         pred = outputs.data.max(1)[1].cpu().numpy()
         gt = labels.numpy()
+        # decoded_crf = loader.decode_segmap(np.array(pred.squeeze(0), dtype=np.uint8))
+        # vis.image(decoded_crf.transpose([2, 0, 1]))
+        # fg = loader.decode_segmap(np.array(gt.squeeze(0), dtype=np.uint8))
+        # vis.image(fg.transpose([2, 0, 1]))
         running_metrics.update(gt, pred)
+
 
     score, class_iou = running_metrics.get_scores()
 
@@ -64,7 +72,8 @@ def validate(cfg, args):
         print(k, v)
 
     for i in range(n_classes):
-        print(i, class_iou[i])
+        if loader.class_names is not None:
+            print(loader.class_names[i+1], class_iou[i])
 
 
 if __name__ == "__main__":
