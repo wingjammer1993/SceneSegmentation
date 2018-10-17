@@ -20,6 +20,6 @@ training:
     loss:
         name: 'cross_entropy'
         size_average: False
-    lr_schedule: 0.1
+    lr_schedule:
     resume: None
 

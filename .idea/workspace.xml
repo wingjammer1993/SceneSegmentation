@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml" afterPath="$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +23,8 @@
       <file leaf-file-name="enet_cityscapes.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="648">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -309,13 +310,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536795144550</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Deeplab + PVOC">
-      <created>1538945918742</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1538945918742</updated>
     </task>
     <task id="LOCAL-00015" summary="Deeplab + PVOC">
       <created>1538946917853</created>
@@ -653,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539740004410</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="clean up">
+      <created>1539740010934</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1539740010934</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1132,8 +1133,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="648">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
