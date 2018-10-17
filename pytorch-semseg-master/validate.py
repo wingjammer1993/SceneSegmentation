@@ -38,7 +38,7 @@ def validate(cfg, args):
     running_metrics = runningScore(n_classes)
 
     model = get_model(cfg['model'], n_classes).to(device)
-    state = convert_state_dict(torch.load(args.model_path))
+    state = convert_state_dict(torch.load(args.model_path), map_location=lambda storage, loc: storage)
     model.load_state_dict(state)
     model.eval()
     model.to(device)
