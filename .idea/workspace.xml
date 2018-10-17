@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml" afterPath="$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -310,13 +309,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536795144550</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Deeplab + PVOC">
-      <created>1538943469684</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1538943469684</updated>
     </task>
     <task id="LOCAL-00014" summary="Deeplab + PVOC">
       <created>1538945918742</created>
@@ -654,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539739796542</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="clean up">
+      <created>1539740004410</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1539740004410</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="ToolWindowManager">
