@@ -14,7 +14,7 @@ training:
     n_workers: 5
     print_interval: 10
     optimizer:
-        name: 'Adam'
+        name: 'adam'
         lr: 5.0e-4
         weight_decay: 2.0e-4
     loss:
