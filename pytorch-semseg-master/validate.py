@@ -20,18 +20,24 @@ from ptsemseg.models import get_model
 from ptsemseg.loader import get_loader, get_data_path
 from ptsemseg.metrics import runningScore
 from ptsemseg.utils import convert_state_dict
-
+from ptsemseg.augmentations import get_composed_augmentations
 torch.backends.cudnn.benchmark = True
 
 
 def validate(cfg, args):
+
+    augmentations = {'hue': args.hue, 'contrast': args.contrast, 'saturation': args.saturation,
+                     'brightness': args.brightness, 'gamma': args.gamma}
+
+    data_aug = get_composed_augmentations(augmentations)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     data_loader = get_loader(cfg['data']['dataset'])
     data_path = cfg['data']['path']
 
     loader = data_loader(data_path, split=cfg['data']['val_split'], is_transform=True,
-                         img_size=(cfg['data']['img_rows'], cfg['data']['img_rows']))
+                         img_size=(cfg['data']['img_rows'], cfg['data']['img_rows']),
+                         augmentations=data_aug)
 
     n_classes = loader.n_classes
     valloader = data.DataLoader(loader, batch_size=cfg['training']['batch_size'], num_workers=8)
@@ -70,12 +76,40 @@ if __name__ == "__main__":
         default="configs/enet_cityscapes.yml",
         help="Config file to be used",
     )
+
     parser.add_argument(
-        "--model_path",
+        "--hue",
         nargs="?",
-        type=str,
-        default="enet_cityscapes_best_model.pkl",
-        help="Path to the saved model",
+        type=float,
+        default=0
+    )
+
+    parser.add_argument(
+        "--saturation",
+        nargs="?",
+        type=float,
+        default=0
+    )
+
+    parser.add_argument(
+        "--gamma",
+        nargs="?",
+        type=float,
+        default=0
+    )
+
+    parser.add_argument(
+        "--brightness",
+        nargs="?",
+        type=float,
+        default=0
+    )
+
+    parser.add_argument(
+        "--contrast",
+        nargs="?",
+        type=float,
+        default=0
     )
 
     args = parser.parse_args()
