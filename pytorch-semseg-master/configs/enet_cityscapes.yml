@@ -4,8 +4,8 @@ data:
     dataset: cityscapes
     train_split: train
     val_split: val
-    img_rows: 360
-    img_cols: 480
+    img_rows: 512
+    img_cols: 1024
     path: /projects/amra8468/cityscapes
 training:
     train_iters: 70000
@@ -14,12 +14,12 @@ training:
     n_workers: 5
     print_interval: 10
     optimizer:
-        name: 'sgd'
-        lr: 1.0e-10
-        weight_decay: 0.0005
-        momentum: 0.99
+        name: 'Adam'
+        lr: 5.0e-4
+        weight_decay: 2.0e-4
     loss:
         name: 'cross_entropy'
         size_average: False
-    lr_schedule:
-    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/enet_cityscapes/98700/enet_cityscapes_best_model.pkl
+    lr_schedule: 0.1
+    resume:
+
