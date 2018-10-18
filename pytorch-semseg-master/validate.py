@@ -52,18 +52,23 @@ def validate(cfg, args):
     model.eval()
     model.to(device)
 
+    print("hue {}".format(args.hue))
+    print("contrast {}".format(args.contrast))
+    print("brightness {}".format(args.brightness))
+    print("saturation {}".format(args.saturation))
+    print("gamma {}".format(args.gamma))
+
     for i, (images, labels) in enumerate(valloader):
-        vis.images(images)
+        # vis.images(images)
         images = images.to(device)
         outputs = model(images)
         pred = outputs.data.max(1)[1].cpu().numpy()
         gt = labels.numpy()
-        decoded_crf = loader.decode_segmap(np.array(pred.squeeze(0), dtype=np.uint8))
-        vis.image(decoded_crf.transpose([2, 0, 1]))
-        fg = loader.decode_segmap(np.array(gt.squeeze(0), dtype=np.uint8))
-        vis.image(fg.transpose([2, 0, 1]))
+        # decoded_crf = loader.decode_segmap(np.array(pred.squeeze(0), dtype=np.uint8))
+        # vis.image(decoded_crf.transpose([2, 0, 1]))
+        # fg = loader.decode_segmap(np.array(gt.squeeze(0), dtype=np.uint8))
+        # vis.image(fg.transpose([2, 0, 1]))
         running_metrics.update(gt, pred)
-
 
     score, class_iou = running_metrics.get_scores()
 
