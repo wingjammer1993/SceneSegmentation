@@ -81,6 +81,7 @@ def validate(cfg, args):
     for i in range(n_classes):
         if loader.class_names is not None:
             print(loader.class_names[i+1], class_iou[i])
+    print('\n')
 
 
 if __name__ == "__main__":
