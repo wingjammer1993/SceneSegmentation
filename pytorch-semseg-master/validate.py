@@ -38,7 +38,7 @@ def validate(cfg, args):
     data_path = cfg['data']['path']
 
     loader = data_loader(data_path, split=cfg['data']['val_split'], is_transform=True,
-                         img_size=(cfg['data']['img_rows'], cfg['data']['img_rows']),
+                         img_size=(cfg['data']['img_rows'], cfg['data']['img_cols']),
                          augmentations=data_aug)
 
     n_classes = loader.n_classes
@@ -62,6 +62,9 @@ def validate(cfg, args):
         # vis.images(images)
         images = images.to(device)
         outputs = model(images)
+        if cfg['model']['arch'] == 'deeplab':
+            interp = nn.Upsample(size=(cfg['data']['img_rows'], cfg['data']['img_cols']), mode='bilinear')
+            outputs = interp(outputs)
         pred = outputs.data.max(1)[1].cpu().numpy()
         gt = labels.numpy()
         # decoded_crf = loader.decode_segmap(np.array(pred.squeeze(0), dtype=np.uint8))

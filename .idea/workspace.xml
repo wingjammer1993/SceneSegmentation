@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7251c116-ba03-4d36-b9d6-490b359ac23b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/configs/deeplab_cityscapes.yml" afterPath="$PROJECT_DIR$/pytorch-semseg-master/configs/deeplab_cityscapes.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/configs/segnet_cityscapes.yml" afterPath="$PROJECT_DIR$/pytorch-semseg-master/configs/segnet_cityscapes.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytorch-semseg-master/validate.py" afterPath="$PROJECT_DIR$/pytorch-semseg-master/validate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="validate.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/validate.py">
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="497">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -114,15 +116,15 @@
         <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/fcn8s_pascal.yml" />
         <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/__init__.py" />
         <option value="$PROJECT_DIR$/pytorch-semseg-master/test.py" />
-        <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/deeplab_cityscapes.yml" />
-        <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/segnet_cityscapes.yml" />
         <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/augmentations/__init__.py" />
         <option value="$PROJECT_DIR$/pytorch-semseg-master/train.py" />
         <option value="$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/augmentations/augmentations.py" />
-        <option value="$PROJECT_DIR$/pytorch-semseg-master/config.json" />
-        <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml" />
         <option value="$PROJECT_DIR$/semseg_val.sh" />
         <option value="$PROJECT_DIR$/pytorch-semseg-master/validate.py" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/segnet_cityscapes.yml" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/configs/deeplab_cityscapes.yml" />
+        <option value="$PROJECT_DIR$/pytorch-semseg-master/config.json" />
       </list>
     </option>
   </component>
@@ -175,6 +177,18 @@
               <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
               <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SceneSegmentation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SceneSegmentation" type="462c0819:PsiDirectoryNode" />
+              <item name="pytorch-semseg-master" type="462c0819:PsiDirectoryNode" />
+              <item name="ptsemseg" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,11 +209,11 @@
       <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\pytorch-semseg-master\ptsemseg" />
+      <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation" />
       <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\pytorch-semseg-master" />
+      <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\pytorch-semseg-master\ptsemseg" />
       <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\pytorch-semseg-master\ptsemseg\models" />
       <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\PyTorch-ENet-master\save" />
-      <recent name="C:\Users\Amruta\PycharmProjects\SceneSegmentation\Pytorch-Deeplab-master\dataset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,20 +341,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536795144550</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Added cityscapes hue variation">
-      <created>1539558651571</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1539558651571</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Added cityscapes hue variation">
-      <created>1539558747919</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1539558747919</updated>
     </task>
     <task id="LOCAL-00030" summary="Added cityscapes hue variation">
       <created>1539562991382</created>
@@ -671,7 +671,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539822695863</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Added script for variations">
+      <created>1539822826009</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1539822826009</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Added script for variations">
+      <created>1539823046319</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1539823046319</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -680,14 +694,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17400645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43735763" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5296128" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64692485" sideWeight="0.49677765" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69134396" sideWeight="0.49677765" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7744875" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5330296" sideWeight="0.49570355" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.571754" sideWeight="0.49570355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35606873" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -763,8 +777,13 @@
           <line>99</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="139" />
+      <option name="time" value="143" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -946,14 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/segnet_cityscapes.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1042,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/deeplab_cityscapes.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Miniconda3/envs/semseg/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -1066,28 +1069,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4580">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/metrics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1097,7 +1082,7 @@
         <state relative-caret-position="-88">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,16 +1092,8 @@
         <state relative-caret-position="-4318">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,14 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="109" column="25" lean-forward="true" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1160,36 +1129,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semseg_val.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/augmentations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml">
+    <entry file="file://$PROJECT_DIR$/semseg_val.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="-367">
+          <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="78" column="27" lean-forward="false" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/ptsemseg/loader/cityscapes_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/validate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="280">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/enet_cityscapes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/segnet_cityscapes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/configs/deeplab_cityscapes.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytorch-semseg-master/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
           <folding />
         </state>
       </provider>
