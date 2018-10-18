@@ -24,7 +24,7 @@ from ptsemseg.augmentations import get_composed_augmentations
 torch.backends.cudnn.benchmark = True
 import visdom
 
-vis = visdom.Visdom()
+# vis = visdom.Visdom()
 
 
 def validate(cfg, args):
