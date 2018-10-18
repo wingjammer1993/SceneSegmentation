@@ -24,14 +24,13 @@ from ptsemseg.augmentations import get_composed_augmentations
 torch.backends.cudnn.benchmark = True
 import visdom
 
-# vis = visdom.Visdom()
+vis = visdom.Visdom()
 
 
 def validate(cfg, args):
 
-    augmentations = {'hue': args.hue, 'contrast': args.contrast, 'saturation': args.saturation,
-                     'brightness': args.brightness, 'gamma': args.gamma}
-
+    augmentations = {'hue': args.hue, 'contrast': args.contrast, 'brightness': args.brightness,
+                     'saturation': args.saturation, 'gamma': args.gamma}
     data_aug = get_composed_augmentations(augmentations)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -54,15 +53,15 @@ def validate(cfg, args):
     model.to(device)
 
     for i, (images, labels) in enumerate(valloader):
-        # vis.images(images)
+        vis.images(images)
         images = images.to(device)
         outputs = model(images)
         pred = outputs.data.max(1)[1].cpu().numpy()
         gt = labels.numpy()
-        # decoded_crf = loader.decode_segmap(np.array(pred.squeeze(0), dtype=np.uint8))
-        # vis.image(decoded_crf.transpose([2, 0, 1]))
-        # fg = loader.decode_segmap(np.array(gt.squeeze(0), dtype=np.uint8))
-        # vis.image(fg.transpose([2, 0, 1]))
+        decoded_crf = loader.decode_segmap(np.array(pred.squeeze(0), dtype=np.uint8))
+        vis.image(decoded_crf.transpose([2, 0, 1]))
+        fg = loader.decode_segmap(np.array(gt.squeeze(0), dtype=np.uint8))
+        vis.image(fg.transpose([2, 0, 1]))
         running_metrics.update(gt, pred)
 
 
@@ -97,28 +96,28 @@ if __name__ == "__main__":
         "--saturation",
         nargs="?",
         type=float,
-        default=0
+        default=1
     )
 
     parser.add_argument(
         "--gamma",
         nargs="?",
         type=float,
-        default=0
+        default=1
     )
 
     parser.add_argument(
         "--brightness",
         nargs="?",
         type=float,
-        default=0
+        default=1
     )
 
     parser.add_argument(
         "--contrast",
         nargs="?",
         type=float,
-        default=0
+        default=1
     )
 
     args = parser.parse_args()

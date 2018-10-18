@@ -7,6 +7,7 @@ data:
     img_rows: 360
     img_cols: 480
     path: /projects/amra8468/cityscapes
+#    path: C:\Users\Amruta\Desktop\Project\Datasets\Cityscapes_Test
 training:
     train_iters: 300
     batch_size: 2
@@ -23,4 +24,4 @@ training:
         size_average: False
     lr_schedule:
     resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/enet_cityscapes/88852/enet_cityscapes_best_model.pkl
-
+#    resume: enet_cityscapes_best_model.pkl
