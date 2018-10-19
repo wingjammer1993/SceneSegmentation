@@ -20,20 +20,28 @@ def get_stats(ip_string, file_text):
 			if elem in dict_hue:
 				if dict_hue[elem] == 0:
 					dict_hue[elem] = float(m[-1])
-	dict_hue[0] = 0.44
+	if ip_string == 'hue':
+		dict_hue[0] = 0.36
+	else:
+		dict_hue[1] = 0.36
 	return dict_hue
 
 
 if __name__ == '__main__':
-	filename = "semseg-val-job.1335750.out"
+	filename = "semseg-val-job.1335752.out"
 	for k in default:
 		file = open(filename)
 		output = get_stats(k, file)
-		plt.bar(list(output.keys()), list(output.values()))
-		plt.axhline(y=0.6, color='r', linestyle='dotted')
+		new_x, new_y = zip(*sorted(zip(list(output.keys()), list(output.values()))))
+		plt.plot(new_x, new_y, label='mIOU on modified val set')
+		plt.plot(new_x, new_y, 'g.')
+		plt.ylim(0, 0.6)
+		plt.xticks(new_x)
+		plt.axhline(y=0.36, color='r', linestyle='dotted', label='default mIOU on val set')
 		plt.xlabel(k)
 		plt.ylabel("Mean IoU")
-		plt.title("Segnet")
+		plt.title("DeepLab - mIOU vs. {} value".format(k))
+		plt.legend()
 		plt.show()
 
 
