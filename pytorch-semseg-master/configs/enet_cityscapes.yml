@@ -2,16 +2,16 @@ model:
     arch: enet
 data:
     dataset: cityscapes
-    train_split: train
+    train_split: trainmodif
     val_split: val
     img_rows: 360
     img_cols: 480
     path: /projects/amra8468/cityscapes
 #    path: C:\Users\Amruta\Desktop\Project\Datasets\Cityscapes_Test
 training:
-    train_iters: 300
-    batch_size: 2
-    val_interval: 50
+    train_iters: 70000
+    batch_size: 10
+    val_interval: 1000
     n_workers: 5
     print_interval: 10
     optimizer:
@@ -23,5 +23,6 @@ training:
         name: 'cross_entropy'
         size_average: False
     lr_schedule:
-    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/enet_cityscapes/88852/enet_cityscapes_best_model.pkl
+    resume: a.pkl
+#    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/enet_cityscapes/88852/enet_cityscapes_best_model.pkl
 #    resume: enet_cityscapes_best_model.pkl
