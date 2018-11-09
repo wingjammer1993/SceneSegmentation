@@ -26,9 +26,9 @@ training:
     resume: a.pkl
 #    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/segnet_cityscapes/96705/segnet_cityscapes_best_model.pkl
 #    resume: segnet_cityscapes_best_model.pkl
-augmentations:
-    gamma: 1
-    hue: 0.5
-    brightness: 1
-    saturation: 1
-    contrast : 1
+    augmentations:
+        gamma: 1
+        hue: 0.5
+        brightness: 1
+        saturation: 1
+        contrast : 1
