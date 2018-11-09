@@ -1,0 +1,1760 @@
+Found 500 val images
+hue -0.5
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.6547052230998586
+Mean IoU : 	 0.20336699485219478
+Overall Acc: 	 0.7783025353993133
+Mean Acc : 	 0.2625899450971087
+road 0.893381102291888
+sidewalk 0.3895801719967357
+building 0.6285302902416571
+wall 0.022272313916918387
+fence 0.02213596030535693
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.5754148964637846
+terrain 0.02690563099056273
+sky 0.5342671208891128
+person 0.16413702396936256
+rider 0.0
+car 0.6013151892080543
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.006033201918267675
+
+
+Found 500 val images
+hue -0.4
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+Overall Acc: 	 0.7795503950986913
+Mean IoU : 	 0.20397477874427933
+Mean Acc : 	 0.26117289028308915
+FreqW Acc : 	 0.6567287011680422
+road 0.9000738758634019
+sidewalk 0.4188265139814646
+building 0.6270363218988366
+wall 0.04164474166510544
+fence 0.025579426068638673
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.5733050419599083
+terrain 0.026601303966622688
+sky 0.4867315943912362
+person 0.16748186078591124
+rider 0.0
+car 0.6010493619135342
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.007190753646647794
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue -0.3
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.6801449549983289
+Overall Acc: 	 0.7963877904279855
+Mean Acc : 	 0.27376826930432224
+Mean IoU : 	 0.21681447790965852
+road 0.9125700058488033
+sidewalk 0.4736756425447347
+building 0.6507357582505248
+wall 0.049286445150519685
+fence 0.036997843803148085
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.6166964975761692
+terrain 0.04128666727588413
+sky 0.5207731474517003
+person 0.18605158775255246
+rider 0.0
+car 0.6220298585518749
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009371626077599986
+
+
+Found 500 val images
+hue -0.2
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3017286626619737
+FreqW Acc : 	 0.7246314612516724
+Mean IoU : 	 0.2446103166345244
+Overall Acc: 	 0.82833313101167
+road 0.929130792139043
+sidewalk 0.5200580964969511
+building 0.6976888615710855
+wall 0.06252494770960068
+fence 0.03930980081416163
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7012582700422286
+terrain 0.1012277041088726
+sky 0.6596765224459866
+person 0.228315654990312
+rider 0.0
+car 0.6986584440272164
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009746921710505771
+
+
+Found 500 val images
+hue -0.1
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.28069267508279183
+Mean Acc : 	 0.3381769975958193
+FreqW Acc : 	 0.7719287838188439
+Overall Acc: 	 0.8621199095879449
+road 0.9416463156013457
+sidewalk 0.5715132997155757
+building 0.7578545985689215
+wall 0.07644895088464995
+fence 0.04231206834604176
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7823924346785088
+terrain 0.26706487822021535
+sky 0.8374669049024577
+person 0.27799113751692145
+rider 0.0
+car 0.766974182989808
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.01149605514859832
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.7865776280441632
+Overall Acc: 	 0.8729862033292899
+Mean IoU : 	 0.29232702905103813
+Mean Acc : 	 0.3516922302033928
+road 0.9461617540041292
+sidewalk 0.6007682302016486
+building 0.7790238723323081
+wall 0.07094486741673035
+fence 0.04427065601532247
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8078130458029115
+terrain 0.37549268253926876
+sky 0.8623729081600154
+person 0.28230534744607555
+rider 0.0
+car 0.7757448703710675
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009315317680247423
+
+
+Found 500 val images
+hue 0.1
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8670937684253095
+Mean IoU : 	 0.28566984662722206
+FreqW Acc : 	 0.7781557062584856
+Mean Acc : 	 0.3467504191533144
+road 0.9426305566281296
+sidewalk 0.5883479818087658
+building 0.7706426443171241
+wall 0.0545908538235112
+fence 0.048752118096441595
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7908755359547955
+terrain 0.3447246089656881
+sky 0.8577320398503082
+person 0.26038945915903616
+rider 0.0
+car 0.7627116819894519
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.006329605323967095
+
+
+Found 500 val images
+hue 0.2
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.321667023674951
+Mean IoU : 	 0.2617636468530137
+Overall Acc: 	 0.8464437043576647
+FreqW Acc : 	 0.7494251551692974
+road 0.9321532547143186
+sidewalk 0.5338356991957107
+building 0.740604937217385
+wall 0.03532599732156405
+fence 0.045207694643644686
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7390190390392979
+terrain 0.17415330622106276
+sky 0.8382995166075392
+person 0.2210116014977595
+rider 0.0
+car 0.7088741202009616
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.005024123548017216
+
+
+Found 500 val images
+hue 0.3
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.23600491704879614
+Mean Acc : 	 0.29631587139536386
+Overall Acc: 	 0.817673682896224
+FreqW Acc : 	 0.7087875470248559
+road 0.910721963503319
+sidewalk 0.4613428456566449
+building 0.6994218151304126
+wall 0.027675332782211126
+fence 0.03557362791922991
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.6767565647031801
+terrain 0.07826653465200764
+sky 0.7668119167399151
+person 0.19235232369357186
+rider 0.0
+car 0.6300277633071564
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.005142735839478712
+
+
+Found 500 val images
+hue 0.4
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.7925612455585633
+Mean Acc : 	 0.2771186335666799
+Mean IoU : 	 0.2158963784550144
+FreqW Acc : 	 0.6741371876640211
+road 0.8951368194456116
+sidewalk 0.4108107358148981
+building 0.6562383948845311
+wall 0.022271469645909894
+fence 0.029379777849451415
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.6191848279925302
+terrain 0.04280482846219597
+sky 0.6491647067887237
+person 0.1735732259304674
+rider 0.0
+car 0.5986070683211199
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.004859335509833886
+
+
+Found 500 val images
+hue 0.5
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.263107240120402
+Mean IoU : 	 0.20374127944565182
+Overall Acc: 	 0.7785162992488066
+FreqW Acc : 	 0.6549479370782177
+road 0.8929676391240123
+sidewalk 0.3888135555631985
+building 0.6293278817313784
+wall 0.022119772278659362
+fence 0.02221480664054326
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.5757071880942848
+terrain 0.026442036208649027
+sky 0.5424105113293043
+person 0.16469151979055818
+rider 0.0
+car 0.6003886486130349
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.006000750093761721
+
+
+Found 500 val images
+hue 0
+contrast 0.0
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.45762933959629665
+Mean Acc : 	 0.11912230779811485
+Mean IoU : 	 0.05863136108535047
+FreqW Acc : 	 0.31279102725542396
+road 0.6558064969211386
+sidewalk 4.882998473574677e-07
+building 0.26425688150262056
+wall 0.0
+fence 0.0
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.0002433493114383113
+terrain 0.0
+sky 0.1473938289710163
+person 0.0014063983946570264
+rider 0.0
+car 0.04488841722094075
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 0.2
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.15867958218637893
+Mean Acc : 	 0.20683705309185693
+FreqW Acc : 	 0.5402706719709287
+Overall Acc: 	 0.6857913748694219
+road 0.865993777941976
+sidewalk 0.31470913151303376
+building 0.47592426727085313
+wall 0.017370513337558333
+fence 0.012910608219669427
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.26292483778851644
+terrain 0.00214284247975985
+sky 0.5741609922049837
+person 0.07689194273955564
+rider 0.0
+car 0.4117397660551882
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.00014338199010478057
+
+
+Found 500 val images
+hue 0
+contrast 0.4
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.30131249600885807
+Mean IoU : 	 0.24804924433181116
+Overall Acc: 	 0.8207760630416048
+FreqW Acc : 	 0.7142887704385122
+road 0.9192043711471873
+sidewalk 0.4977994684002268
+building 0.6736187441376952
+wall 0.06352630720874772
+fence 0.04072249218489009
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.6715479045475984
+terrain 0.1350534963562522
+sky 0.789804936014763
+person 0.20739660463413948
+rider 0.0
+car 0.70893724060232
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.005324077070592565
+
+
+Found 500 val images
+hue 0
+contrast 0.6
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.7656846880934662
+Mean IoU : 	 0.27954240045380496
+Overall Acc: 	 0.8581168508071589
+Mean Acc : 	 0.33549611371053495
+road 0.9364502646663789
+sidewalk 0.5615994440770067
+building 0.7485711679500059
+wall 0.09007991545155412
+fence 0.04724242825023145
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.772780875873246
+terrain 0.2788794171354114
+sky 0.8441835177977685
+person 0.25969759766674344
+rider 0.0
+car 0.7630021845580833
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.008818795195863371
+
+
+Found 500 val images
+hue 0
+contrast 0.8
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.28994486360470767
+Mean Acc : 	 0.34769431892069713
+Overall Acc: 	 0.8697335006352926
+FreqW Acc : 	 0.7821752503105945
+road 0.9432749676821004
+sidewalk 0.5898562303777908
+building 0.7729519209563254
+wall 0.07749204719729036
+fence 0.04804945111740506
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8015436362287447
+terrain 0.35650496225424483
+sky 0.8592949419263975
+person 0.2749023309809359
+rider 0.0
+car 0.7752211480331717
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009860771735038128
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2922897662259983
+Mean Acc : 	 0.35165083750593756
+Overall Acc: 	 0.872983028618654
+FreqW Acc : 	 0.7865734778641514
+road 0.9461741258867769
+sidewalk 0.6007983271941321
+building 0.7790485532521174
+wall 0.07088172029140209
+fence 0.04412791846954688
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8078009984938976
+terrain 0.3751255404913863
+sky 0.8623480877357386
+person 0.28230178296922614
+rider 0.0
+car 0.7756237016876889
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009274801822053952
+
+
+Found 500 val images
+hue 0
+contrast 1.2
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.29105432736666487
+FreqW Acc : 	 0.7855278947732418
+Mean Acc : 	 0.35227549504271516
+Overall Acc: 	 0.872437203264592
+road 0.9464676000538964
+sidewalk 0.6000938594730912
+building 0.7778488451573417
+wall 0.07023101048339649
+fence 0.03931623733343231
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8064011095358374
+terrain 0.3737840903032565
+sky 0.8525479095571308
+person 0.2826920298295329
+rider 0.0
+car 0.7721065050419962
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.00854302319772186
+
+
+Found 500 val images
+hue 0
+contrast 1.4
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8698825665276156
+Mean Acc : 	 0.35110995214360324
+FreqW Acc : 	 0.7817391455232392
+Mean IoU : 	 0.2882376236810784
+road 0.9456132882741748
+sidewalk 0.5977248296840748
+building 0.7729613737401382
+wall 0.06403613057705589
+fence 0.035636421010356
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.799832417661152
+terrain 0.36880700955303314
+sky 0.844501436103778
+person 0.27805745433159257
+rider 0.0
+car 0.7617182875823902
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.007626201422743545
+
+
+Found 500 val images
+hue 0
+contrast 1.6
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.28353966876291387
+Overall Acc: 	 0.8655027357341368
+Mean Acc : 	 0.349433163567586
+FreqW Acc : 	 0.7754920502433383
+road 0.9425676396291504
+sidewalk 0.5882757309436961
+building 0.7664745760948811
+wall 0.05142428279898133
+fence 0.03250213154763795
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7896459826390836
+terrain 0.347454281742779
+sky 0.8356269115871053
+person 0.27581479573791706
+rider 0.0
+car 0.749723482843643
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.007743890930488171
+
+
+Found 500 val images
+hue 0
+contrast 1.8
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2791431128270552
+FreqW Acc : 	 0.7674473315322436
+Overall Acc: 	 0.859786907337247
+Mean Acc : 	 0.3478922141978898
+road 0.9373180647384949
+sidewalk 0.5771116414911759
+building 0.7581676741474824
+wall 0.042287329352978166
+fence 0.035407948129744043
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.777791295683263
+terrain 0.33766289172406583
+sky 0.8285444396311302
+person 0.2691239590447323
+rider 0.0
+car 0.7321678816687566
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.008136018102224326
+
+
+Found 500 val images
+hue 0
+contrast 2.0
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8539052003096242
+FreqW Acc : 	 0.7591321803877729
+Mean Acc : 	 0.3455182627989781
+Mean IoU : 	 0.274595258860182
+road 0.9334278941753574
+sidewalk 0.5654918949197676
+building 0.7479108192684175
+wall 0.038452250162414416
+fence 0.03381067196282915
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7638575615407985
+terrain 0.324471564680318
+sky 0.8212706965735443
+person 0.26401210686951376
+rider 0.0
+car 0.7151544641013616
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009449994089135832
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.0
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.04490606630915471
+FreqW Acc : 	 0.24905422340809708
+Overall Acc: 	 0.4459917102220431
+Mean Acc : 	 0.10924185197761914
+road 0.5566036736074862
+sidewalk 0.0
+building 0.14819228870598106
+wall 0.0
+fence 0.0
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.012824380527280261
+terrain 0.0
+sky 0.12861192399991853
+person 4.0596195730498096e-05
+rider 0.0
+car 0.006942396837542951
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.2
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.10211508375615265
+Mean Acc : 	 0.14823148571569686
+Overall Acc: 	 0.6125316199525854
+FreqW Acc : 	 0.4249204538750784
+road 0.8020283302861009
+sidewalk 0.1527384969872455
+building 0.4356560664495565
+wall 0.0
+fence 1.5894763946860625e-06
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.0051501554428053445
+terrain 0.0
+sky 0.4072190315790689
+person 0.08267322199036169
+rider 0.0
+car 0.05471969915536675
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.4
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2116387412493516
+FreqW Acc : 	 0.6483592315269137
+Overall Acc: 	 0.7722965384502896
+Mean Acc : 	 0.267834935251736
+road 0.8977715955370451
+sidewalk 0.4149330567543796
+building 0.6089479324541779
+wall 0.027988350119146507
+fence 0.032378792683583534
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.5162318609593032
+terrain 0.022029627128394645
+sky 0.7718893086217307
+person 0.1710490237830729
+rider 0.0
+car 0.5565183264445257
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.001398209252320136
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.6
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8536356806045855
+Mean Acc : 	 0.33198595425370664
+Mean IoU : 	 0.2739330125922263
+FreqW Acc : 	 0.7603553531615315
+road 0.9337304512354065
+sidewalk 0.5434092863733527
+building 0.7413892970373441
+wall 0.06279594590372935
+fence 0.04993026965184932
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7717804632039799
+terrain 0.2644792196671672
+sky 0.8309616268415561
+person 0.24513952853925877
+rider 0.0
+car 0.7532310174084831
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.00788013339017364
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.8
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.34890429563459624
+Mean IoU : 	 0.28980165365328897
+Overall Acc: 	 0.869948018478562
+FreqW Acc : 	 0.7826780002552002
+road 0.9431167432550457
+sidewalk 0.5876850152444227
+building 0.7735935672379392
+wall 0.07514005469554288
+fence 0.04887103607349642
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.80570560773455
+terrain 0.36090458408941417
+sky 0.8520387964443372
+person 0.2731997115247072
+rider 0.0
+car 0.7760976759633391
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009878627149695644
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3516842545256295
+Overall Acc: 	 0.8729790999142418
+FreqW Acc : 	 0.7865621355199107
+Mean IoU : 	 0.2923173321024884
+road 0.9461633639999475
+sidewalk 0.6007233530034589
+building 0.7790098820484269
+wall 0.07105803941557332
+fence 0.04440234996980179
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8078037995899838
+terrain 0.37530755079088035
+sky 0.8623503047713592
+person 0.2823647540818505
+rider 0.0
+car 0.7756094886724609
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009236423603536315
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.2
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2916383692095696
+Overall Acc: 	 0.8720071093411746
+FreqW Acc : 	 0.7848722692829667
+Mean Acc : 	 0.3513278719025556
+road 0.9464467683957125
+sidewalk 0.5996932047412925
+building 0.7761981922626378
+wall 0.07032407527748175
+fence 0.04092563018347459
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8022816757773008
+terrain 0.372752984389348
+sky 0.8669529495907706
+person 0.28479028070744766
+rider 0.0
+car 0.7709673790524236
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.00979587460393166
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.4
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3482383467949141
+FreqW Acc : 	 0.7800926454278437
+Overall Acc: 	 0.8687305037216803
+Mean IoU : 	 0.2884499926827582
+road 0.9442051709633912
+sidewalk 0.5898241270823663
+building 0.7704882773097796
+wall 0.06524444846748931
+fence 0.03710501821904065
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7934397269487278
+terrain 0.35770577986608143
+sky 0.8663364443723431
+person 0.28101019487462386
+rider 0.0
+car 0.7655335033112719
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009657169557292003
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.6
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3441754131137897
+FreqW Acc : 	 0.773357398236825
+Mean IoU : 	 0.2843601522610718
+Overall Acc: 	 0.8639514530657195
+road 0.9406597259076235
+sidewalk 0.5751208951031576
+building 0.7624753840863487
+wall 0.06547043865225684
+fence 0.03572096297029485
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7832158050522561
+terrain 0.3395345295804675
+sky 0.8597764104354729
+person 0.27403506850492876
+rider 0.0
+car 0.7561096784918434
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010723994175714057
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.8
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.858849296234776
+Mean Acc : 	 0.3397150954267209
+FreqW Acc : 	 0.7662933684131004
+Mean IoU : 	 0.27995978628142976
+road 0.9368429555138225
+sidewalk 0.5607988643412924
+building 0.7540080617580008
+wall 0.06863776119241645
+fence 0.03563437395198463
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7739126684381827
+terrain 0.3176567328958188
+sky 0.8483292067848475
+person 0.26712013546471897
+rider 0.0
+car 0.744443845961505
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.011851333044576126
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 2.0
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8522574858056372
+Mean IoU : 	 0.27427909149108987
+FreqW Acc : 	 0.7571128954590716
+Mean Acc : 	 0.3340123797874092
+road 0.9320332482543082
+sidewalk 0.5445658745109333
+building 0.7431910272472672
+wall 0.07176132894888072
+fence 0.033889779148643925
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7602428901225778
+terrain 0.2874203669794766
+sky 0.8333161058979848
+person 0.2620566689961563
+rider 0.0
+car 0.7298773089780696
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.01294813924640908
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.0
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.746648821780867
+Mean Acc : 	 0.31354425267182945
+Overall Acc: 	 0.8453089437246957
+Mean IoU : 	 0.2574416706463212
+road 0.9335200533545309
+sidewalk 0.5309859600122804
+building 0.728711416372394
+wall 0.05052623849227444
+fence 0.0378577948333919
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7326700680906452
+terrain 0.07548379071251636
+sky 0.8089789013554101
+person 0.2464491970745117
+rider 0.0
+car 0.7391637764022276
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0070445455799200115
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.2
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2653128398935181
+FreqW Acc : 	 0.7595137040850374
+Mean Acc : 	 0.3212198139465179
+Overall Acc: 	 0.8541655530377014
+road 0.9385864208801893
+sidewalk 0.5471755138019614
+building 0.7444003104908434
+wall 0.054656198725531346
+fence 0.039547698731250955
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7574570731817107
+terrain 0.10357271155996882
+sky 0.8352610955443984
+person 0.2579329327999544
+rider 0.0
+car 0.7551687154297627
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0071852868312719306
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.4
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.7703279865445487
+Overall Acc: 	 0.8616357000761441
+Mean Acc : 	 0.32982970697100944
+Mean IoU : 	 0.2736732911225274
+road 0.9420963965606974
+sidewalk 0.5629712005854436
+building 0.7579185200481734
+wall 0.06149111276857742
+fence 0.04059462124722115
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7789257856538252
+terrain 0.16170315474938377
+sky 0.8505751282204198
+person 0.2685325261033778
+rider 0.0
+car 0.766791716850482
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.008192368540419742
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.6
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.28095224715116884
+Mean Acc : 	 0.33768658894904996
+Overall Acc: 	 0.8669195694071179
+FreqW Acc : 	 0.7779504024895764
+road 0.9442602107442326
+sidewalk 0.5777816322141693
+building 0.7681020363484736
+wall 0.06836027417256574
+fence 0.04211397141989232
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7929643075126133
+terrain 0.23139142842877303
+sky 0.8591845691460698
+person 0.2732098158189773
+rider 0.0
+car 0.7721378340316885
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0085866160347528
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.8
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.7833908167298815
+Overall Acc: 	 0.8707673451539186
+Mean Acc : 	 0.3455731136944948
+Mean IoU : 	 0.2876767469043574
+road 0.9455637761667277
+sidewalk 0.5909024147356374
+building 0.7749235632088252
+wall 0.0711870964621672
+fence 0.04337930272281913
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.802693384193388
+terrain 0.31180076707039694
+sky 0.8617614790862588
+person 0.2789843495680481
+rider 0.0
+car 0.7750572073249662
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009604850643556399
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3516801874981356
+Overall Acc: 	 0.8729761103950595
+Mean IoU : 	 0.29231173279093153
+FreqW Acc : 	 0.7865626586761062
+road 0.946168709501869
+sidewalk 0.6007355376772702
+building 0.7790013873715296
+wall 0.07112150286221075
+fence 0.04425193806112609
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8077809867006125
+terrain 0.37510429082240765
+sky 0.8623994804668038
+person 0.28240026535171936
+rider 0.0
+car 0.7756648655625941
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009293958649556563
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.2
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.7878781023156057
+Overall Acc: 	 0.8738374623024607
+Mean Acc : 	 0.3551961743877138
+Mean IoU : 	 0.29444444136337034
+road 0.9460330957364478
+sidewalk 0.6040295772620848
+building 0.7814407908334253
+wall 0.0728677132690887
+fence 0.04505832585565953
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8104418601139318
+terrain 0.4042778673715609
+sky 0.8623174732594607
+person 0.2842232635732952
+rider 0.0
+car 0.7742539906568926
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009500427972188278
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.4
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8739684323441583
+Mean Acc : 	 0.3579836158934406
+FreqW Acc : 	 0.7882110067294028
+Mean IoU : 	 0.29568462855205446
+road 0.9455580492190299
+sidewalk 0.6048264818457723
+building 0.7824642160132755
+wall 0.0726239098167425
+fence 0.04667458024243915
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8112954420030548
+terrain 0.4240131193904733
+sky 0.8618472759511169
+person 0.2860290942882626
+rider 0.0
+car 0.7728872183440345
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009788555374833655
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.6
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.36005381842391604
+Overall Acc: 	 0.8732524689559267
+Mean IoU : 	 0.29603907223834525
+FreqW Acc : 	 0.7873975493418852
+road 0.9445417281557644
+sidewalk 0.6023042642411425
+building 0.7821994679674618
+wall 0.07442132595776779
+fence 0.047278542185969046
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.81013908420182
+terrain 0.4352164066431807
+sky 0.8612534266894372
+person 0.286488735677118
+rider 0.0
+car 0.7708050438649187
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010094346943979423
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.8
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3617043122727971
+Overall Acc: 	 0.8721753425489628
+Mean IoU : 	 0.29570427585702125
+FreqW Acc : 	 0.7861890912046086
+road 0.9433120452271836
+sidewalk 0.5995194884125427
+building 0.7815230272040751
+wall 0.07117939095672722
+fence 0.049295364962422025
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.808628315661301
+terrain 0.4394656055203126
+sky 0.8603531756710928
+person 0.2865768305882158
+rider 0.0
+car 0.7679272512037373
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010600745875794501
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 2.0
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2944747385758786
+Mean Acc : 	 0.3625913700227301
+Overall Acc: 	 0.8702529097512706
+FreqW Acc : 	 0.7838262832723759
+road 0.9410654985219611
+sidewalk 0.5934976055408779
+building 0.7800765680290453
+wall 0.06960282506050867
+fence 0.049804971733073654
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8057256197863599
+terrain 0.43858004809643747
+sky 0.8584484278470551
+person 0.2838827654421851
+rider 0.0
+car 0.7640022815151538
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010333421369035197
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.0
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.06580855593248099
+Overall Acc: 	 0.2547924208175248
+FreqW Acc : 	 0.08926866639045564
+Mean IoU : 	 0.020545047614071863
+road 0.06858178968708026
+sidewalk 0.04257223885112644
+building 0.27875974801804476
+wall 0.0
+fence 4.314567097111317e-05
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.00023957369476249288
+terrain 0.0
+sky 0.0
+person 0.00015393288722209965
+rider 0.0
+car 5.475858158237698e-06
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.2
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.7941291293180148
+Mean Acc : 	 0.2542483633429723
+Mean IoU : 	 0.20122140669577468
+FreqW Acc : 	 0.6765496882193646
+road 0.9060044430525667
+sidewalk 0.4435887738107071
+building 0.6354430037867904
+wall 0.06999031585220501
+fence 0.033550730874727375
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7175427965103363
+terrain 0.1039817401134526
+sky 0.1045603832883315
+person 0.18314859948606482
+rider 0.0
+car 0.6177197121276602
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0076762283168767785
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.4
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.2650942490154352
+Mean Acc : 	 0.3197765142713142
+FreqW Acc : 	 0.7527066470079933
+Overall Acc: 	 0.8492723450784532
+road 0.9348538076377177
+sidewalk 0.5386192405666158
+building 0.7298394089546109
+wall 0.07005047828061368
+fence 0.042741895988638014
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7684200782642875
+terrain 0.2316311199838257
+sky 0.7126715624365624
+person 0.2535011602657086
+rider 0.0
+car 0.7441790127993878
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010282966115301356
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.6
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.3397252832996518
+Mean IoU : 	 0.28336211622945234
+FreqW Acc : 	 0.7753138268314275
+Overall Acc: 	 0.8653629294145023
+road 0.9431512258255574
+sidewalk 0.5760493276198861
+building 0.7620125570542705
+wall 0.0717069783988879
+fence 0.042573962748442225
+pole 8.948826137731384e-07
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.7903736100941393
+terrain 0.31046082668777014
+sky 0.8323200231830493
+person 0.27535596179330674
+rider 0.0
+car 0.7695072727637842
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010367567307887739
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.8
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+FreqW Acc : 	 0.7842901107181478
+Mean Acc : 	 0.34855008425571665
+Overall Acc: 	 0.8715198706263086
+Mean IoU : 	 0.29065994509490645
+road 0.9466825367413481
+sidewalk 0.5962063494703923
+building 0.774407757776199
+wall 0.07516513649788895
+fence 0.043657531189420756
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8021788173395177
+terrain 0.3558095346273179
+sky 0.8607965658079073
+person 0.2825000365374216
+rider 0.0
+car 0.7746801125940864
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.010454578221723564
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.872973372207136
+Mean IoU : 	 0.2923281487607555
+Mean Acc : 	 0.3516974595824925
+FreqW Acc : 	 0.7865568464256822
+road 0.9461413563303959
+sidewalk 0.6007000359474126
+building 0.7790124874195571
+wall 0.0710534041818704
+fence 0.044349577602150865
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8077889244341652
+terrain 0.3753315221710108
+sky 0.862411395287203
+person 0.28232251725993257
+rider 0.0
+car 0.7756622802368106
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009461325583845869
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.2
+saturation 1
+gamma 1
+Mean IoU : 	 0.2915346681039668
+FreqW Acc : 	 0.7857454921331987
+Mean Acc : 	 0.3525670116700505
+Overall Acc: 	 0.8722738644023678
+road 0.9454969415794037
+sidewalk 0.6007376535085752
+building 0.7780276071784717
+wall 0.06966774712447099
+fence 0.04448233818485092
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8098093464456475
+terrain 0.3853491745440938
+sky 0.8420664254089262
+person 0.27940976156800634
+rider 0.0
+car 0.7747376171206245
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009374081312297427
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.4
+saturation 1
+gamma 1
+Mean Acc : 	 0.35239858197640456
+FreqW Acc : 	 0.7835968178933198
+Overall Acc: 	 0.870609138740556
+Mean IoU : 	 0.28982285579760303
+road 0.944539780286741
+sidewalk 0.5993099560170864
+building 0.7747602911969551
+wall 0.07145131956512953
+fence 0.04710067165276696
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8095126731885735
+terrain 0.3842694933796069
+sky 0.8208853176746819
+person 0.2736023406554345
+rider 0.0
+car 0.7719025565433183
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.009299859994163344
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.6
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.8680765662425002
+Mean Acc : 	 0.3506488757090838
+Mean IoU : 	 0.28671328463544565
+FreqW Acc : 	 0.7802750048264987
+road 0.9429074868161923
+sidewalk 0.5908132867546342
+building 0.7706358996512274
+wall 0.0695364772789625
+fence 0.04941082933279176
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8078669902391497
+terrain 0.36970225727714684
+sky 0.8010737510953505
+person 0.26805235259854915
+rider 0.0
+car 0.7687796896378845
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.008773387391578878
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.8
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.34743671639026796
+FreqW Acc : 	 0.7754869216227164
+Overall Acc: 	 0.8644565495279133
+Mean IoU : 	 0.2823666866880667
+road 0.9405545563985794
+sidewalk 0.5786484726547173
+building 0.7644155988893931
+wall 0.06829104960621343
+fence 0.05207969611359765
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8048347250483835
+terrain 0.3425140742390798
+sky 0.7808082349885254
+person 0.26105875142126206
+rider 0.0
+car 0.7630672145158471
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.008694673197668625
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 2.0
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+Mean Acc : 	 0.34402106260095083
+Mean IoU : 	 0.2781245611653584
+Overall Acc: 	 0.8600982538549156
+FreqW Acc : 	 0.7694920791099341
+road 0.9366445108682702
+sidewalk 0.5613930030152007
+building 0.7574678821689234
+wall 0.06500989712388151
+fence 0.05399003613372264
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.8008262173110847
+terrain 0.3294337749608644
+sky 0.7625536330627711
+person 0.25449065209421706
+rider 0.0
+car 0.7545787828370754
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.007978272565797717
+
+

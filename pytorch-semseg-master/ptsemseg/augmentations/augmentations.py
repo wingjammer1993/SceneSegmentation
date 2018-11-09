@@ -68,7 +68,8 @@ class AdjustGamma(object):
 
     def __call__(self, img, mask):
         assert img.size == mask.size
-        return tf.adjust_gamma(img, self.gamma), mask
+        # return tf.adjust_gamma(img, self.gamma), mask // this is for val set
+        return tf.adjust_gamma(img, random.uniform(1, 1 + self.gamma)), mask
 
 
 class AdjustSaturation(object):
@@ -77,7 +78,10 @@ class AdjustSaturation(object):
 
     def __call__(self, img, mask):
         assert img.size == mask.size
-        return tf.adjust_saturation(img, self.saturation), mask
+        # return tf.adjust_saturation(img, self.saturation), mask // val set
+        return tf.adjust_saturation(img,
+                                    random.uniform(1 - self.saturation,
+                                                   1 + self.saturation)), mask
 
 
 class AdjustHue(object):
@@ -86,7 +90,9 @@ class AdjustHue(object):
 
     def __call__(self, img, mask):
         assert img.size == mask.size
-        return tf.adjust_hue(img, self.hue), mask
+        # return tf.adjust_hue(img, self.hue), mask
+        return tf.adjust_hue(img, random.uniform(-self.hue,
+                                                 self.hue)), mask
 
 
 class AdjustBrightness(object):
@@ -95,7 +101,10 @@ class AdjustBrightness(object):
 
     def __call__(self, img, mask):
         assert img.size == mask.size
-        return tf.adjust_brightness(img, self.bf), mask
+        # return tf.adjust_brightness(img, self.bf), mask
+        return tf.adjust_brightness(img,
+                                    random.uniform(1 - self.bf,
+                                                   1 + self.bf)), mask
 
 
 class AdjustContrast(object):
@@ -104,7 +113,10 @@ class AdjustContrast(object):
 
     def __call__(self, img, mask):
         assert img.size == mask.size
-        return tf.adjust_contrast(img, self.cf), mask
+        # return tf.adjust_contrast(img, self.cf), mask
+        return tf.adjust_contrast(img,
+                                  random.uniform(1 - self.cf,
+                                                 1 + self.cf)), mask
 
 
 class CenterCrop(object):
