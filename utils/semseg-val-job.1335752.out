@@ -1,0 +1,1980 @@
+Found 500 val images
+hue -0.5
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.13625575006519905
+Mean Acc : 	 0.19166826865617662
+FreqW Acc : 	 0.47282636666402034
+Overall Acc: 	 0.6268280165726774
+road 0.8565266689564454
+sidewalk 0.19406699016949722
+building 0.4379126144376273
+wall 0.00036746978233241135
+fence 0.013388771272021807
+pole 0.0390024533520341
+traffic_light 0.03185616959449024
+traffic_sign 0.015116707729596553
+vegetation 0.000424514708579207
+terrain 1.1073391273534911e-05
+sky 0.27828374405102557
+person 0.1707503025620258
+rider 0.0
+car 0.4768527520576358
+truck 0.023209749876202793
+bus 0.04468759495480896
+train 0.006070624030894357
+motorcycle 0.0
+bicycle 0.0003310503122907946
+
+
+Found 500 val images
+hue -0.4
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.20439714919303537
+Mean IoU : 	 0.1440895015986822
+FreqW Acc : 	 0.4831684050404944
+Overall Acc: 	 0.637435756588639
+road 0.8640683251106211
+sidewalk 0.2488041279495455
+building 0.44357563213462714
+wall 0.016499326611709775
+fence 0.015097608322187055
+pole 0.03821880323965497
+traffic_light 0.03733389924581279
+traffic_sign 0.0267468055873908
+vegetation 0.007180504869496296
+terrain 2.9654925917312702e-05
+sky 0.20415369400388264
+person 0.17404519210470276
+rider 0.0
+car 0.5412428341414098
+truck 0.03311117293943073
+bus 0.07434872041751918
+train 0.012407374975088625
+motorcycle 0.0
+bicycle 0.0008368537959651561
+
+
+Found 500 val images
+hue -0.3
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.166410119182988
+Overall Acc: 	 0.6609647673126925
+FreqW Acc : 	 0.5110549176480123
+Mean Acc : 	 0.2324988083635497
+road 0.8768006146712939
+sidewalk 0.33352060856434407
+building 0.46249231617742564
+wall 0.05595012757520616
+fence 0.02807153739923055
+pole 0.051886616702798705
+traffic_light 0.05230599499596131
+traffic_sign 0.050919388991382826
+vegetation 0.05969232779600824
+terrain 0.00785777863699157
+sky 0.2118285012825097
+person 0.1932626937192323
+rider 0.003519944352498141
+car 0.5966990736213422
+truck 0.04231198085028029
+bus 0.09837537071179214
+train 0.009007840157173836
+motorcycle 0.0031434940899103462
+bicycle 0.024146054181389872
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue -0.2
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.2846434485476243
+Overall Acc: 	 0.7070813018657602
+FreqW Acc : 	 0.5698546301579456
+Mean IoU : 	 0.21615033929418542
+road 0.884547752601486
+sidewalk 0.3982173234957447
+building 0.5104339384479333
+wall 0.1097626302034952
+fence 0.037376280165397874
+pole 0.08000759519229676
+traffic_light 0.08309287426028268
+traffic_sign 0.07524908921015885
+vegetation 0.23591118915593437
+terrain 0.012998015779823343
+sky 0.3876338406321937
+person 0.22876494899690472
+rider 0.038728453100514884
+car 0.6380204060121362
+truck 0.05561591287086217
+bus 0.15714603647806555
+train 0.007130101109348134
+motorcycle 0.02684710725704025
+bicycle 0.13937295161990457
+
+
+Found 500 val images
+hue -0.1
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7392860360924047
+Overall Acc: 	 0.8395986446154969
+Mean IoU : 	 0.3222014793902752
+Mean Acc : 	 0.3879339017081306
+road 0.9239286928046068
+sidewalk 0.5158369956943908
+building 0.7154244859891374
+wall 0.15601288976757943
+fence 0.05741021351519914
+pole 0.1084763213656985
+traffic_light 0.10107916765294485
+traffic_sign 0.07896473018676174
+vegetation 0.6988777171784909
+terrain 0.23572147931868137
+sky 0.7645807498247625
+person 0.2996908851934528
+rider 0.08544736200997786
+car 0.7209095764903221
+truck 0.045753437763328804
+bus 0.27907271718995197
+train 0.012490869922983755
+motorcycle 0.0699406943426401
+bicycle 0.25220912220431774
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.4348095087077484
+FreqW Acc : 	 0.7856733676001644
+Overall Acc: 	 0.8705621927070256
+Mean IoU : 	 0.3641579835473627
+road 0.9391830982300177
+sidewalk 0.5856990512754595
+building 0.774396208030518
+wall 0.15840636477660167
+fence 0.09303058861038438
+pole 0.12461035935742434
+traffic_light 0.10416418088533588
+traffic_sign 0.1277927734183174
+vegetation 0.7948221308989581
+terrain 0.41037028748997134
+sky 0.8287323431595108
+person 0.32326925000833695
+rider 0.08493885764408442
+car 0.7505712054798193
+truck 0.09571021094606649
+bus 0.32705089109029994
+train 0.05566942087993897
+motorcycle 0.055496896809250344
+bicycle 0.28508756840959476
+
+
+Found 500 val images
+hue 0.1
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.3251355032096272
+Overall Acc: 	 0.8373919561642305
+FreqW Acc : 	 0.7429502220930293
+Mean Acc : 	 0.4110637430984452
+road 0.9300617613547297
+sidewalk 0.5494014249907946
+building 0.7071180386041148
+wall 0.07344449795530705
+fence 0.07283793174709742
+pole 0.11670506134079822
+traffic_light 0.08122393472348141
+traffic_sign 0.10508217847785059
+vegetation 0.7096499405222446
+terrain 0.3669220458206771
+sky 0.77591519187941
+person 0.2598240822833918
+rider 0.05664584295843963
+car 0.7058551140952418
+truck 0.08159568642318547
+bus 0.2764025123613524
+train 0.07977054072130473
+motorcycle 0.023372071139550202
+bicycle 0.20574670358394487
+
+
+Found 500 val images
+hue 0.2
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.6082694032010638
+Overall Acc: 	 0.7296401739312842
+Mean IoU : 	 0.23717950352984007
+Mean Acc : 	 0.32045656700326786
+road 0.9086694901126986
+sidewalk 0.44424529451419636
+building 0.5294304686558459
+wall 0.054571049294312814
+fence 0.03693531774126326
+pole 0.07396198694555589
+traffic_light 0.04416980829669066
+traffic_sign 0.046527173602689986
+vegetation 0.3095969784858373
+terrain 0.11590832538577389
+sky 0.7235917697010077
+person 0.1849923297130899
+rider 0.03677281902912029
+car 0.6307006141317679
+truck 0.037921694623977285
+bus 0.17535513988091062
+train 0.04998586154597568
+motorcycle 0.022450944270790002
+bicycle 0.08062350113545824
+
+
+Found 500 val images
+hue 0.3
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.24260481995952618
+Mean IoU : 	 0.17658242998797724
+FreqW Acc : 	 0.5122679024780733
+Overall Acc: 	 0.6571927613264053
+road 0.878680870983424
+sidewalk 0.2843678017546048
+building 0.46094606237051833
+wall 0.010377951599411784
+fence 0.019055238465254542
+pole 0.05026112543085115
+traffic_light 0.03599088005629143
+traffic_sign 0.020667367771128063
+vegetation 0.009438911439998084
+terrain 0.0019034136534240628
+sky 0.7098957673404334
+person 0.17162762847381213
+rider 0.009440701309240115
+car 0.5452001460031634
+truck 0.027763393171291492
+bus 0.08150879488421225
+train 0.009531423758480236
+motorcycle 0.004075807068656014
+bicycle 0.02433288423737258
+
+
+Found 500 val images
+hue 0.4
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.6339399504276871
+Mean Acc : 	 0.20744845309048354
+Mean IoU : 	 0.14879447857332115
+FreqW Acc : 	 0.4822129528017189
+road 0.8594725893093342
+sidewalk 0.18818614700976918
+building 0.44656393080231815
+wall 0.00023409883652878246
+fence 0.016749351293929154
+pole 0.043384747976001295
+traffic_light 0.03565107036703069
+traffic_sign 0.012631739844854599
+vegetation 0.00017482241812997602
+terrain 3.7523217490822443e-05
+sky 0.4972907413136864
+person 0.17397927149659081
+rider 0.00042627822570823085
+car 0.465519551922355
+truck 0.025729584265815297
+bus 0.04886305761107283
+train 0.010889501403774822
+motorcycle 0.0004240482472672446
+bicycle 0.0008870373314448411
+
+
+Found 500 val images
+hue 0.5
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.4733752715038676
+Overall Acc: 	 0.6273030591075166
+Mean IoU : 	 0.13723958366481517
+Mean Acc : 	 0.1930917592414377
+road 0.8565579755883662
+sidewalk 0.19387915873291003
+building 0.43825709856574907
+wall 0.00040868125013443464
+fence 0.013660700051370166
+pole 0.03941845934875068
+traffic_light 0.032511699394384294
+traffic_sign 0.014818098378195317
+vegetation 0.0003981026143676005
+terrain 1.1082718242470876e-05
+sky 0.2900391274404967
+person 0.17201464765527338
+rider 0.0
+car 0.47761734707528264
+truck 0.02347200121776162
+bus 0.046293777779106225
+train 0.00787048699187468
+motorcycle 0.0
+bicycle 0.00032364482922218586
+
+
+Found 500 val images
+hue 0
+contrast 0.0
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.12231428574414312
+Mean Acc : 	 0.06058792758849705
+FreqW Acc : 	 0.07341128042735777
+Mean IoU : 	 0.023773115009638975
+road 0.10137728375464457
+sidewalk 0.022403092070659016
+building 0.11729991770590491
+wall 0.00017461368971327353
+fence 0.009256690358950407
+pole 0.0009193369137045204
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.0008696878114883457
+terrain 0.0
+sky 0.14747036984393416
+person 0.0
+rider 0.0
+car 0.04796601012081486
+truck 0.0014182181526964741
+bus 0.0025339647606299922
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 0.2
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.3602906744081672
+Mean IoU : 	 0.10001795882630173
+Mean Acc : 	 0.15087369603146986
+Overall Acc: 	 0.5093984596647921
+road 0.6138336890875761
+sidewalk 0.12657094233742372
+building 0.4009608695074544
+wall 0.0035046356771911936
+fence 0.013858710287054399
+pole 0.015972280104306825
+traffic_light 0.00037446922331070917
+traffic_sign 0.0003700568864043462
+vegetation 0.03872680485217899
+terrain 0.0014027857089654145
+sky 0.4764288156218946
+person 0.014458177888647348
+rider 9.157397345575756e-05
+car 0.16904988944125945
+truck 0.0008681734888976516
+bus 4.0372911122400575e-05
+train 0.0
+motorcycle 0.0
+bicycle 0.023828970702589606
+
+
+Found 500 val images
+hue 0
+contrast 0.4
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.5377242930903493
+Mean Acc : 	 0.24124330354010656
+Overall Acc: 	 0.6805529700403483
+Mean IoU : 	 0.1854154979302379
+road 0.864259153591617
+sidewalk 0.36336761512196536
+building 0.4752746841850341
+wall 0.027904993840397865
+fence 0.03239660920217829
+pole 0.04777438333872772
+traffic_light 0.003794258280581528
+traffic_sign 0.011053551553361072
+vegetation 0.15667383844035396
+terrain 0.0839019507405358
+sky 0.6728940488357007
+person 0.1426453676134663
+rider 0.011388706696082523
+car 0.5260209355751536
+truck 0.008996091005710374
+bus 0.008250968927273459
+train 0.0
+motorcycle 0.0
+bicycle 0.08629730372638046
+
+
+Found 500 val images
+hue 0
+contrast 0.6
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.28109444416261614
+FreqW Acc : 	 0.6868213100410985
+Mean Acc : 	 0.34286925706294386
+Overall Acc: 	 0.8003605439501583
+road 0.9198168921208111
+sidewalk 0.5053414473216065
+building 0.6263690621691689
+wall 0.08238061145307535
+fence 0.0541945119457552
+pole 0.08659766967407458
+traffic_light 0.03342875992554369
+traffic_sign 0.05503043177777504
+vegetation 0.5494347893513128
+terrain 0.2934816116819903
+sky 0.7915003960934545
+person 0.24335862666502775
+rider 0.012995401075275248
+car 0.6754077675054471
+truck 0.07632329904489793
+bus 0.16530361696099727
+train 0.04899813495289561
+motorcycle 0.0006258440660100794
+bicycle 0.12020556530458762
+
+
+Found 500 val images
+hue 0
+contrast 0.8
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.85630165708916
+FreqW Acc : 	 0.7646145794329801
+Mean Acc : 	 0.4082444728236711
+Mean IoU : 	 0.34153988327696344
+road 0.9358288550431003
+sidewalk 0.572316534896565
+building 0.738774831042771
+wall 0.12019616119745598
+fence 0.07192320359362261
+pole 0.11452909906017279
+traffic_light 0.0750988820046183
+traffic_sign 0.10190335281855925
+vegetation 0.7455933147531316
+terrain 0.3891321199541299
+sky 0.829471894453355
+person 0.30031642099389944
+rider 0.042602507548461684
+car 0.737170253419419
+truck 0.10943223283036954
+bus 0.29547786259541986
+train 0.07290292177191329
+motorcycle 0.006853392107337634
+bicycle 0.22973394217800344
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.8705621927070256
+FreqW Acc : 	 0.7856733676001644
+Mean IoU : 	 0.3641579835473627
+Mean Acc : 	 0.4348095087077484
+road 0.9391830982300177
+sidewalk 0.5856990512754595
+building 0.774396208030518
+wall 0.15840636477660167
+fence 0.09303058861038438
+pole 0.12461035935742434
+traffic_light 0.10416418088533588
+traffic_sign 0.1277927734183174
+vegetation 0.7948221308989581
+terrain 0.41037028748997134
+sky 0.8287323431595108
+person 0.32326925000833695
+rider 0.08493885764408442
+car 0.7505712054798193
+truck 0.09571021094606649
+bus 0.32705089109029994
+train 0.05566942087993897
+motorcycle 0.055496896809250344
+bicycle 0.28508756840959476
+
+
+Found 500 val images
+hue 0
+contrast 1.2
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7686579657162969
+Mean Acc : 	 0.4315772760433294
+Mean IoU : 	 0.3515655075924595
+Overall Acc: 	 0.8586253071714425
+road 0.933177291652309
+sidewalk 0.5622763948843769
+building 0.7531701314970684
+wall 0.14876201623240615
+fence 0.06574207314047537
+pole 0.11217684904724755
+traffic_light 0.10624613421988557
+traffic_sign 0.13037088690914542
+vegetation 0.7653678489812379
+terrain 0.37453842402285237
+sky 0.800435928775479
+person 0.312821097871847
+rider 0.10082960182828264
+car 0.7247657679148501
+truck 0.09726418091009238
+bus 0.3204405623669988
+train 0.027116285451088767
+motorcycle 0.09055384282546379
+bicycle 0.25368932572562386
+
+
+Found 500 val images
+hue 0
+contrast 1.4
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7149255588675487
+Overall Acc: 	 0.8195639717487263
+Mean Acc : 	 0.3980578093938191
+Mean IoU : 	 0.3102878746458965
+road 0.9012520503423573
+sidewalk 0.4883543823254335
+building 0.6912270998231417
+wall 0.0977545703263975
+fence 0.03726669399488374
+pole 0.08978559684025562
+traffic_light 0.08939241902385667
+traffic_sign 0.11233369902807608
+vegetation 0.6698114882974788
+terrain 0.2768288629495349
+sky 0.7785140264579149
+person 0.27901621206012245
+rider 0.09286376606447741
+car 0.6671303098742397
+truck 0.10789135609657796
+bus 0.25328461230853044
+train 0.0008727316500647026
+motorcycle 0.07346388521705637
+bicycle 0.18842585559163347
+
+
+Found 500 val images
+hue 0
+contrast 1.6
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.645977288477708
+Mean IoU : 	 0.26449941312360464
+Overall Acc: 	 0.7640427670031846
+Mean Acc : 	 0.3540599992996113
+road 0.8449202348847628
+sidewalk 0.3961117356987054
+building 0.6133883760039941
+wall 0.05029592222890856
+fence 0.02049533867551037
+pole 0.0692835429762833
+traffic_light 0.07492636070728273
+traffic_sign 0.0930255627734362
+vegetation 0.5712725058947186
+terrain 0.1568559175475195
+sky 0.7494557912267206
+person 0.23902098524309634
+rider 0.08506169118788642
+car 0.5990116919334731
+truck 0.09295601969874245
+bus 0.19829202983391875
+train 0.0005036887795917158
+motorcycle 0.04491658690004102
+bicycle 0.1256948671538967
+
+
+Found 500 val images
+hue 0
+contrast 1.8
+brightness 1
+saturation 1
+gamma 1
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.22697730642131297
+Overall Acc: 	 0.702554389374106
+FreqW Acc : 	 0.5762386323299096
+Mean Acc : 	 0.317094851003997
+road 0.7666956795704929
+sidewalk 0.3165512111127629
+building 0.5382682107136062
+wall 0.02393621876197952
+fence 0.012962485207764312
+pole 0.054427153507590045
+traffic_light 0.06210059803055857
+traffic_sign 0.07831483105294795
+vegetation 0.5010484159784974
+terrain 0.07894634770039877
+sky 0.7248154909443355
+person 0.20520004063700373
+rider 0.06250202417910862
+car 0.5328472848585813
+truck 0.07183600475116443
+bus 0.16081734558453378
+train 0.00011380772185392779
+motorcycle 0.03207685742075071
+bicycle 0.08910881427101659
+
+
+Found 500 val images
+hue 0
+contrast 2.0
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.515892461771072
+Mean Acc : 	 0.28790700423082444
+Mean IoU : 	 0.20005754237014226
+Overall Acc: 	 0.6459244433948498
+road 0.6838496302229763
+sidewalk 0.2624832569318774
+building 0.4809932719777521
+wall 0.006851052655784303
+fence 0.008003113985559319
+pole 0.043430510932479904
+traffic_light 0.05312246384351264
+traffic_sign 0.06889776046479869
+vegetation 0.45413038406075507
+terrain 0.04276100148902895
+sky 0.7070850562317741
+person 0.17868868077083627
+rider 0.053592954490661295
+car 0.4785480751454353
+truck 0.05702584993774835
+bus 0.131321933247932
+train 1.835434906301048e-05
+motorcycle 0.02569821469788353
+bicycle 0.06459173959684447
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.0
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.19373574276706484
+Mean Acc : 	 0.06487743180049835
+Overall Acc: 	 0.2890075339984061
+Mean IoU : 	 0.03425195242098391
+road 0.4102503899902875
+sidewalk 0.022012626394221753
+building 0.16874319330477333
+wall 0.0
+fence 0.002363259075458793
+pole 0.007958234650349226
+traffic_light 0.0
+traffic_sign 0.002912373605897021
+vegetation 0.0
+terrain 0.0
+sky 0.024732260123664262
+person 0.0006617490999811787
+rider 0.0
+car 0.0006893771652577278
+truck 0.005922153421245072
+bus 0.0033951508199220504
+train 0.00018480994277492128
+motorcycle 0.0003848644995353465
+bicycle 0.0005766539053259895
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.2
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.4931470630070666
+Mean IoU : 	 0.06139845896057848
+FreqW Acc : 	 0.3070159373726504
+Mean Acc : 	 0.10245815324882923
+road 0.5887692546076084
+sidewalk 0.05783329043756489
+building 0.3488049845119291
+wall 0.0
+fence 0.0
+pole 0.005037559114833523
+traffic_light 6.5514914470279155e-06
+traffic_sign 4.235729922158836e-05
+vegetation 8.518374975199305e-05
+terrain 0.0
+sky 0.1620241495587756
+person 0.0007724401434618243
+rider 0.0
+car 0.0031949493363971748
+truck 0.0
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.4
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.1562886029891377
+FreqW Acc : 	 0.497488957513487
+Overall Acc: 	 0.6547544248223958
+Mean Acc : 	 0.21008630999520733
+road 0.8310196722477406
+sidewalk 0.30657082652922757
+building 0.4672270868390413
+wall 0.006236616423536344
+fence 0.028075605614721486
+pole 0.04324812119828105
+traffic_light 0.001572717490273984
+traffic_sign 0.029002680727087896
+vegetation 0.14445151620328373
+terrain 0.06274785216114293
+sky 0.6995868127399758
+person 0.11010367851391885
+rider 0.000325491401602141
+car 0.2133192007709095
+truck 0.0003367196617497943
+bus 0.0015537879175405393
+train 0.0
+motorcycle 0.0
+bicycle 0.024105070353582673
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.6
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.3555387899176877
+FreqW Acc : 	 0.7082306581817828
+Mean IoU : 	 0.2882224181868209
+Overall Acc: 	 0.8141654292239866
+road 0.9156782709010016
+sidewalk 0.48950055974427586
+building 0.6637921443462905
+wall 0.06005055236846923
+fence 0.06874395377415222
+pole 0.09104482134717826
+traffic_light 0.03306596331490648
+traffic_sign 0.08324193055533219
+vegetation 0.6357299304426746
+terrain 0.3257635350828249
+sky 0.7967496625740742
+person 0.2328986035112834
+rider 0.015232410261110666
+car 0.6775517900188971
+truck 0.054027215094231
+bus 0.12218888871063481
+train 0.039633048830052836
+motorcycle 0.015040240643850301
+bicycle 0.1562924240283554
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 0.8
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+WARN: resizing labels yielded fewer classes
+Mean IoU : 	 0.3499025079309261
+Overall Acc: 	 0.8616760453571438
+Mean Acc : 	 0.41962248348805087
+FreqW Acc : 	 0.7727896084534246
+road 0.934513961673855
+sidewalk 0.5652610188862969
+building 0.7544695195640174
+wall 0.12465947338266813
+fence 0.09331531015319335
+pole 0.11534532436352271
+traffic_light 0.07393544538473686
+traffic_sign 0.11290936238643032
+vegetation 0.7714954737713781
+terrain 0.40686488182669545
+sky 0.8229643175603323
+person 0.30088364208302926
+rider 0.06621284826842243
+car 0.7462910712660417
+truck 0.09479885851054036
+bus 0.29788809310379644
+train 0.05948342203097733
+motorcycle 0.03788793103448276
+bicycle 0.26896769543717874
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.8705621927070256
+Mean Acc : 	 0.4348095087077484
+FreqW Acc : 	 0.7856733676001644
+Mean IoU : 	 0.3641579835473627
+road 0.9391830982300177
+sidewalk 0.5856990512754595
+building 0.774396208030518
+wall 0.15840636477660167
+fence 0.09303058861038438
+pole 0.12461035935742434
+traffic_light 0.10416418088533588
+traffic_sign 0.1277927734183174
+vegetation 0.7948221308989581
+terrain 0.41037028748997134
+sky 0.8287323431595108
+person 0.32326925000833695
+rider 0.08493885764408442
+car 0.7505712054798193
+truck 0.09571021094606649
+bus 0.32705089109029994
+train 0.05566942087993897
+motorcycle 0.055496896809250344
+bicycle 0.28508756840959476
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.2
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7769713169960395
+Overall Acc: 	 0.8645522935095118
+Mean Acc : 	 0.4254330883895634
+Mean IoU : 	 0.35448110684493894
+road 0.9347500801946923
+sidewalk 0.5692640976651855
+building 0.765160707539318
+wall 0.16625990789185124
+fence 0.07036042091654507
+pole 0.11583628813762784
+traffic_light 0.10708622819785618
+traffic_sign 0.12122127561904247
+vegetation 0.7819292211787324
+terrain 0.3846667715065887
+sky 0.8276879412396021
+person 0.3198242035937109
+rider 0.0829237434921655
+car 0.7347400422204367
+truck 0.1026171964440374
+bus 0.3228121710897966
+train 0.028186026082843436
+motorcycle 0.04663135277724594
+bicycle 0.25318335426656213
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.4
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.33168863224694506
+Mean Acc : 	 0.4027028819431506
+FreqW Acc : 	 0.7554982439307749
+Overall Acc: 	 0.8494891910428556
+road 0.9232645525363347
+sidewalk 0.5329738939330033
+building 0.7418476296548514
+wall 0.14168729822190812
+fence 0.05092622588073545
+pole 0.10249132104308709
+traffic_light 0.09939067779437614
+traffic_sign 0.10032259309150873
+vegetation 0.7487834188382133
+terrain 0.33601229450249154
+sky 0.8142413369793353
+person 0.3049403861607522
+rider 0.06386342560921847
+car 0.7046475072593309
+truck 0.10196415388146834
+bus 0.2634254510348157
+train 0.018637976316638254
+motorcycle 0.048890749267475934
+bicycle 0.20377312068641273
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.6
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.3023167981819399
+FreqW Acc : 	 0.7210467506419584
+Overall Acc: 	 0.8241888240635024
+Mean Acc : 	 0.3739820709561536
+road 0.9036014289911041
+sidewalk 0.47791779989872035
+building 0.7014278488193343
+wall 0.10494069593904642
+fence 0.039781101131697964
+pole 0.08841266386735272
+traffic_light 0.08712245321765616
+traffic_sign 0.08177511386081773
+vegetation 0.6957705750278611
+terrain 0.2805398420296161
+sky 0.7813983283873437
+person 0.2835619329228284
+rider 0.048007441547589645
+car 0.6609730448670363
+truck 0.09595627505652891
+bus 0.18747193328140035
+train 0.007539052710717567
+motorcycle 0.05203071779146589
+bicycle 0.1657909161087404
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1.8
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+WARN: resizing labels yielded fewer classes
+Overall Acc: 	 0.7907090003218495
+Mean Acc : 	 0.3388869404134231
+FreqW Acc : 	 0.6778244232638345
+Mean IoU : 	 0.2688640295227696
+road 0.8784738215565351
+sidewalk 0.4176163826437607
+building 0.6474820776482562
+wall 0.06788758042976811
+fence 0.033536336930549394
+pole 0.07059816206616154
+traffic_light 0.07655539561770283
+traffic_sign 0.06489499776590991
+vegetation 0.6284407188671118
+terrain 0.21938077217200339
+sky 0.7335288825608238
+person 0.2583517570006881
+rider 0.031241258645371126
+car 0.6110207079244014
+truck 0.0869305552545328
+bus 0.12586874002897327
+train 0.004186270283104338
+motorcycle 0.025161142857142858
+bicycle 0.12726100067982546
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 2.0
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.30559219106981944
+FreqW Acc : 	 0.6269567293025319
+Overall Acc: 	 0.7483803056243663
+Mean IoU : 	 0.23720503338373194
+road 0.843243313970287
+sidewalk 0.3554933923393145
+building 0.5825580074323657
+wall 0.04690372853372691
+fence 0.028659921450739013
+pole 0.055440285443124286
+traffic_light 0.06373705776899719
+traffic_sign 0.05098467005761179
+vegetation 0.5552801038950761
+terrain 0.17174997236509287
+sky 0.6815748386989616
+person 0.2292313258649826
+rider 0.016504554754203288
+car 0.5521657027833181
+truck 0.07202180554487236
+bus 0.0917758139620545
+train 0.003430331468982465
+motorcycle 0.0121766609268265
+bicycle 0.09396414703036991
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.0
+gamma 1
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.20610233564515673
+Mean Acc : 	 0.28585208460299216
+FreqW Acc : 	 0.543734493324674
+Overall Acc: 	 0.6918404156034859
+road 0.9041943539403882
+sidewalk 0.400974509371881
+building 0.48700391226525575
+wall 0.01842294767162746
+fence 0.032395327713784866
+pole 0.05644459461569804
+traffic_light 0.052675238490253004
+traffic_sign 0.021555369676917752
+vegetation 0.014568339187043974
+terrain 2.053998028161893e-05
+sky 0.7090821351424392
+person 0.20211885135335603
+rider 0.004793566401236108
+car 0.6636193873853786
+truck 0.05210494279574167
+bus 0.19678844790259659
+train 0.07555513503015333
+motorcycle 0.0006961984327439933
+bicycle 0.022930579901200943
+
+
+WARN: resizing labels yielded fewer classes
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.2
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.30871707557045736
+Mean IoU : 	 0.22409890260253304
+Overall Acc: 	 0.710354441759477
+FreqW Acc : 	 0.5669904943790863
+road 0.9144086646065668
+sidewalk 0.441448817673258
+building 0.5072668247430865
+wall 0.03399020948364942
+fence 0.03768945462049341
+pole 0.06962329624096454
+traffic_light 0.05694336915526071
+traffic_sign 0.033680311106641186
+vegetation 0.06628997682465379
+terrain 0.0005685694791903571
+sky 0.7687913998644123
+person 0.21021349642795054
+rider 0.011302488709522437
+car 0.6777812322170962
+truck 0.06208503384017859
+bus 0.21534866592661867
+train 0.09338506962666115
+motorcycle 0.004070471988316813
+bicycle 0.05299179691360639
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.4
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.26356715735291775
+FreqW Acc : 	 0.6367890479883538
+Mean Acc : 	 0.3462432528685115
+Overall Acc: 	 0.7638404056560592
+road 0.9246363476954075
+sidewalk 0.4888551725910363
+building 0.5772687589526908
+wall 0.07235727685640063
+fence 0.04433825621395132
+pole 0.09139707169033223
+traffic_light 0.08290456785480263
+traffic_sign 0.056140142618516665
+vegetation 0.31554314762801783
+terrain 0.025099403190580932
+sky 0.8070368338303703
+person 0.24090146817900035
+rider 0.029387892350683533
+car 0.6979772697984794
+truck 0.07626286036739588
+bus 0.2551968907650089
+train 0.07470697320558237
+motorcycle 0.008723291047074967
+bicycle 0.13904236487010405
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.6
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.836516463566538
+Mean Acc : 	 0.39508673069387545
+Mean IoU : 	 0.32216172952488004
+FreqW Acc : 	 0.7372517224496975
+road 0.9317684601586053
+sidewalk 0.5387937738104732
+building 0.7052948829339706
+wall 0.10481162015460498
+fence 0.05353580161426438
+pole 0.1095684646040583
+traffic_light 0.10454904168762663
+traffic_sign 0.08612724098546767
+vegetation 0.6670774790644606
+terrain 0.24700043001975175
+sky 0.8238383979397464
+person 0.28117157926819336
+rider 0.05262405026380797
+car 0.7213731463036517
+truck 0.08562810967427832
+bus 0.32285667740340507
+train 0.03954898462312972
+motorcycle 0.028310310415462996
+bicycle 0.21719441004776224
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 0.8
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.4218181192298427
+FreqW Acc : 	 0.7760211743916742
+Overall Acc: 	 0.8636647502393633
+Mean IoU : 	 0.3516530778699851
+road 0.9372207865044141
+sidewalk 0.5718650984166692
+building 0.761349480897348
+wall 0.1440773240518326
+fence 0.07554866729509192
+pole 0.11891966280268068
+traffic_light 0.11072419805821236
+traffic_sign 0.11019375138943516
+vegetation 0.7753120800869101
+terrain 0.35925586133876686
+sky 0.8287477292429539
+person 0.31027767047563887
+rider 0.07040140451679834
+car 0.7403810498769696
+truck 0.08577510602106826
+bus 0.3366460942255049
+train 0.04006795979045731
+motorcycle 0.0451996469183239
+bicycle 0.2594449076206412
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.8705621927070256
+Mean Acc : 	 0.4348095087077484
+Mean IoU : 	 0.3641579835473627
+FreqW Acc : 	 0.7856733676001644
+road 0.9391830982300177
+sidewalk 0.5856990512754595
+building 0.774396208030518
+wall 0.15840636477660167
+fence 0.09303058861038438
+pole 0.12461035935742434
+traffic_light 0.10416418088533588
+traffic_sign 0.1277927734183174
+vegetation 0.7948221308989581
+terrain 0.41037028748997134
+sky 0.8287323431595108
+person 0.32326925000833695
+rider 0.08493885764408442
+car 0.7505712054798193
+truck 0.09571021094606649
+bus 0.32705089109029994
+train 0.05566942087993897
+motorcycle 0.055496896809250344
+bicycle 0.28508756840959476
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.2
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.43797289605275486
+Overall Acc: 	 0.8688697412389925
+Mean IoU : 	 0.36513066200042293
+FreqW Acc : 	 0.7831093721374555
+road 0.93785415459186
+sidewalk 0.584943759520504
+building 0.7700554452357672
+wall 0.15791730771939655
+fence 0.09737512441947202
+pole 0.123234419196117
+traffic_light 0.094157891506091
+traffic_sign 0.14037077260295744
+vegetation 0.7870974244185559
+terrain 0.41244191775263966
+sky 0.8252405019759642
+person 0.32437634398233417
+rider 0.08795084591576925
+car 0.7535503095627171
+truck 0.10399199190422434
+bus 0.3232935423992273
+train 0.05301052146532524
+motorcycle 0.06737874851824763
+bicycle 0.293241555320865
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.4
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.43332252826320977
+FreqW Acc : 	 0.7684487335285053
+Overall Acc: 	 0.8585635855054935
+Mean IoU : 	 0.35614530696647295
+road 0.9307050776893403
+sidewalk 0.560748416994133
+building 0.7491350698622521
+wall 0.1551783942623013
+fence 0.10001175917215428
+pole 0.11581375653678394
+traffic_light 0.08254584607630895
+traffic_sign 0.1456450873610893
+vegetation 0.7570468055868761
+terrain 0.3836892691402556
+sky 0.8184818027578034
+person 0.31360567340289036
+rider 0.08975973969675488
+car 0.7523192973076345
+truck 0.10359570146663326
+bus 0.31428299224132283
+train 0.033847083711090964
+motorcycle 0.07275069411441007
+bicycle 0.2875983649829518
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.6
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Overall Acc: 	 0.8349810941351837
+Mean Acc : 	 0.41778440372386366
+FreqW Acc : 	 0.7364392552405901
+Mean IoU : 	 0.3341073489636594
+road 0.912700498984958
+sidewalk 0.509282208315779
+building 0.7015463943138074
+wall 0.14701996508600712
+fence 0.09571001782032915
+pole 0.10505389924795207
+traffic_light 0.06705399623581124
+traffic_sign 0.14496344310641435
+vegetation 0.70158744978465
+terrain 0.3168652788656203
+sky 0.8106576311839745
+person 0.2957775221698638
+rider 0.08868812500958113
+car 0.7420787260601489
+truck 0.08202938696397026
+bus 0.28186644771252334
+train 0.005602723349070941
+motorcycle 0.07795810269734282
+bicycle 0.26159781340172433
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1.8
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.3030205712628966
+FreqW Acc : 	 0.6878784412091017
+Mean Acc : 	 0.3941530228209064
+Overall Acc: 	 0.7963027610947836
+road 0.8834518001248641
+sidewalk 0.4488322898463066
+building 0.6216180153058547
+wall 0.1283887118065617
+fence 0.08619001385811613
+pole 0.09343818819060885
+traffic_light 0.05450165255419013
+traffic_sign 0.13980422336493278
+vegetation 0.627450593761424
+terrain 0.21768705367720542
+sky 0.8013913040973178
+person 0.26618313632582313
+rider 0.08395395732654795
+car 0.7203149253431541
+truck 0.04813835388827783
+bus 0.24682995344256425
+train 0.0022000407414952128
+motorcycle 0.06387654071529603
+bicycle 0.22314009962449544
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 2.0
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.27060881644899437
+Mean Acc : 	 0.3650790444119672
+Overall Acc: 	 0.7467029472598153
+FreqW Acc : 	 0.630773240486467
+road 0.8437895246657562
+sidewalk 0.38873006080415184
+building 0.5231382871076328
+wall 0.10921391499875806
+fence 0.0790657952205653
+pole 0.08269394495129674
+traffic_light 0.0426341720711109
+traffic_sign 0.1329390746385459
+vegetation 0.5549416141991925
+terrain 0.13012070848645954
+sky 0.7850110651821225
+person 0.23204795735786582
+rider 0.07702372601403959
+car 0.68817098753022
+truck 0.02627989451668637
+bus 0.2107648294205706
+train 2.070779234225839e-05
+motorcycle 0.05482517857382168
+bicycle 0.1801560689997557
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.0
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.057398449938671714
+Mean IoU : 	 0.010030072939202647
+Overall Acc: 	 0.1484770496398152
+FreqW Acc : 	 0.03787884754353117
+road 0.028511893971657418
+sidewalk 9.61365079853082e-05
+building 0.0003669784776957999
+wall 0.0
+fence 0.0
+pole 0.0
+traffic_light 0.0
+traffic_sign 0.0
+vegetation 0.15619013866564752
+terrain 0.0
+sky 0.0
+person 0.0
+rider 0.0
+car 0.0
+truck 0.005406238221864232
+bus 0.0
+train 0.0
+motorcycle 0.0
+bicycle 0.0
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.2
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.573780695344519
+Mean IoU : 	 0.1633403343452024
+Overall Acc: 	 0.705919503280541
+Mean Acc : 	 0.22847500285565844
+road 0.8374491712385798
+sidewalk 0.29479239459899004
+building 0.5351357394462677
+wall 0.061151959063527946
+fence 0.037666470251057654
+pole 0.021547896259731154
+traffic_light 0.006996286886847763
+traffic_sign 0.014388580205086507
+vegetation 0.5426301980562146
+terrain 0.06807855954305861
+sky 0.0
+person 0.16897676728827463
+rider 0.002119485215521717
+car 0.4109935312368879
+truck 0.05844457331023694
+bus 0.00027110189364672714
+train 0.0
+motorcycle 0.0
+bicycle 0.042823638064915966
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.4
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.33006381800544354
+FreqW Acc : 	 0.6980137186229095
+Overall Acc: 	 0.8103269262778352
+Mean IoU : 	 0.2646294176663491
+road 0.9071382070043473
+sidewalk 0.45869215955783954
+building 0.6628672596409126
+wall 0.12667411692228053
+fence 0.041049416111160766
+pole 0.06827552447966116
+traffic_light 0.05468250926280823
+traffic_sign 0.05465102943954235
+vegetation 0.7211087454016384
+terrain 0.29775552284447687
+sky 0.20464449796563866
+person 0.2709484646651117
+rider 0.026000499451184454
+car 0.670602388180743
+truck 0.16249669632631486
+bus 0.1396027706861143
+train 0.0069867619247741125
+motorcycle 0.00794162826420891
+bicycle 0.1458407375318756
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.6
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7585719802600014
+Mean Acc : 	 0.4025797047513149
+Overall Acc: 	 0.8525097694775144
+Mean IoU : 	 0.33538671769630585
+road 0.9277627056222463
+sidewalk 0.5337373991464308
+building 0.740244811764898
+wall 0.1658784505605906
+fence 0.054740438786454244
+pole 0.10231765084186092
+traffic_light 0.08745941127782848
+traffic_sign 0.09534106613678399
+vegetation 0.7692061289021965
+terrain 0.36901655575522857
+sky 0.6941091038708894
+person 0.30256751347915145
+rider 0.0524444054178649
+car 0.7258093866912154
+truck 0.21779692813454746
+bus 0.27155838399189464
+train 0.032967584264428695
+motorcycle 0.018672687731157624
+bicycle 0.21071702385414123
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 0.8
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.781594254088727
+Overall Acc: 	 0.8680914609265676
+Mean Acc : 	 0.42821161713441064
+Mean IoU : 	 0.3603271171887416
+road 0.9368050040606037
+sidewalk 0.5730758562947206
+building 0.7698142362602963
+wall 0.17356888545508128
+fence 0.07178924845594223
+pole 0.12012110381871678
+traffic_light 0.11083839229642035
+traffic_sign 0.1217355891662285
+vegetation 0.7908968285970693
+terrain 0.3963354619561689
+sky 0.821660822565406
+person 0.32028623441590964
+rider 0.073310290435786
+car 0.7468541847040997
+truck 0.1738530412781802
+bus 0.3184190211517678
+train 0.03120622691964854
+motorcycle 0.03255998939414026
+bicycle 0.26308480935990425
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7856733676001644
+Mean Acc : 	 0.4348095087077484
+Mean IoU : 	 0.3641579835473627
+Overall Acc: 	 0.8705621927070256
+road 0.9391830982300177
+sidewalk 0.5856990512754595
+building 0.774396208030518
+wall 0.15840636477660167
+fence 0.09303058861038438
+pole 0.12461035935742434
+traffic_light 0.10416418088533588
+traffic_sign 0.1277927734183174
+vegetation 0.7948221308989581
+terrain 0.41037028748997134
+sky 0.8287323431595108
+person 0.32326925000833695
+rider 0.08493885764408442
+car 0.7505712054798193
+truck 0.09571021094606649
+bus 0.32705089109029994
+train 0.05566942087993897
+motorcycle 0.055496896809250344
+bicycle 0.28508756840959476
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.2
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7792351462201101
+Overall Acc: 	 0.8658801426889569
+Mean IoU : 	 0.35799186345670225
+Mean Acc : 	 0.4331404780916955
+road 0.9360907261910332
+sidewalk 0.5737970547475094
+building 0.7670295221988828
+wall 0.14203564621000078
+fence 0.10101990302940578
+pole 0.116351202220513
+traffic_light 0.09090807768397002
+traffic_sign 0.12659542371553492
+vegetation 0.788993173952636
+terrain 0.40759131822298345
+sky 0.790034048149507
+person 0.3141674077530203
+rider 0.087348097899712
+car 0.7451678120501039
+truck 0.09504959000110956
+bus 0.32093928199978483
+train 0.04952888668484999
+motorcycle 0.062011283203781145
+bicycle 0.28718694976300424
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.4
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7674546485105554
+Mean IoU : 	 0.34472602619221826
+Mean Acc : 	 0.42408177629776883
+Overall Acc: 	 0.8572630388375183
+road 0.9291831528874117
+sidewalk 0.5493459470131747
+building 0.7538382384278689
+wall 0.11321051096200885
+fence 0.1068715300413732
+pole 0.10573717535411006
+traffic_light 0.07239981119521391
+traffic_sign 0.119950848085523
+vegetation 0.7761551640674527
+terrain 0.3924399119582335
+sky 0.7531236966989767
+person 0.2959377549141968
+rider 0.08276658217682636
+car 0.7366105126517029
+truck 0.10118470303396053
+bus 0.3004693846214062
+train 0.02326952042085962
+motorcycle 0.06214095788333388
+bicycle 0.2751590952585131
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.6
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean Acc : 	 0.411237127945179
+FreqW Acc : 	 0.7516704464974973
+Mean IoU : 	 0.32838010971879966
+Overall Acc: 	 0.8456634266231313
+road 0.9195895836438434
+sidewalk 0.5150109660885094
+building 0.7356917458203525
+wall 0.09168203007927202
+fence 0.10293077845984037
+pole 0.09133935266037177
+traffic_light 0.05977150287943526
+traffic_sign 0.1065201343158775
+vegetation 0.7596582686315934
+terrain 0.38201560224055814
+sky 0.7180248763917542
+person 0.27567256193785716
+rider 0.07004298722709273
+car 0.7192280487589535
+truck 0.10051492354327099
+bus 0.2529499755571363
+train 0.010103183862089275
+motorcycle 0.064286340522532
+bicycle 0.2641892220368546
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 1.8
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+FreqW Acc : 	 0.7289371045801943
+Mean Acc : 	 0.3933731674453201
+Overall Acc: 	 0.8290730105533599
+Mean IoU : 	 0.30864489160870845
+road 0.9032188241448859
+sidewalk 0.4672498249572515
+building 0.7096935344648656
+wall 0.08182577983877491
+fence 0.08291921949501176
+pole 0.07694196936975009
+traffic_light 0.04110730433971939
+traffic_sign 0.09389680557595939
+vegetation 0.736871572349324
+terrain 0.3664175967096257
+sky 0.6837029308885558
+person 0.25390287775430315
+rider 0.05344749981681723
+car 0.6905391112594235
+truck 0.0778069247483989
+bus 0.21290565585488413
+train 0.00858339549027483
+motorcycle 0.07062317804301194
+bicycle 0.25259893546462286
+
+
+Found 500 val images
+hue 0
+contrast 1
+brightness 2.0
+saturation 1
+gamma 1
+WARN: resizing labels yielded fewer classes
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+/projects/amra8468/python_libs/lib/python3.5/site-packages/torch/nn/functional.py:1961: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Mean IoU : 	 0.28463090228266497
+FreqW Acc : 	 0.7000873275754327
+Mean Acc : 	 0.36968648690471734
+Overall Acc: 	 0.8069727386671726
+road 0.8790627549921225
+sidewalk 0.4066049789862916
+building 0.6823036835682686
+wall 0.06656799625826744
+fence 0.07204997634482847
+pole 0.06256611129656313
+traffic_light 0.031200451319813534
+traffic_sign 0.07835258416560203
+vegetation 0.7108662493451934
+terrain 0.31639049095408195
+sky 0.6566282031833343
+person 0.22311124882218933
+rider 0.03693542040138166
+car 0.6407085895585677
+truck 0.048265300154975294
+bus 0.1778403227817377
+train 0.017313788092050305
+motorcycle 0.07851356389890066
+bicycle 0.22270542924646475
+
+
