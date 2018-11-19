@@ -20,7 +20,7 @@ class Compose(object):
             mask = Image.fromarray(mask, mode="L")
             self.PIL2Numpy = True
 
-        assert img.size == mask.size
+        # assert img.size == mask.size
         for a in self.augmentations:
             img, mask = a(img, mask)
 
@@ -67,7 +67,7 @@ class AdjustGamma(object):
         self.gamma = gamma
 
     def __call__(self, img, mask):
-        assert img.size == mask.size
+        # assert img.size == mask.size
         # return tf.adjust_gamma(img, self.gamma), mask // this is for val set
         return tf.adjust_gamma(img, random.uniform(1, 1 + self.gamma)), mask
 
@@ -77,7 +77,7 @@ class AdjustSaturation(object):
         self.saturation = saturation
 
     def __call__(self, img, mask):
-        assert img.size == mask.size
+        # assert img.size == mask.size
         # return tf.adjust_saturation(img, self.saturation), mask // val set
         return tf.adjust_saturation(img,
                                     random.uniform(1 - self.saturation,
@@ -89,7 +89,7 @@ class AdjustHue(object):
         self.hue = hue
 
     def __call__(self, img, mask):
-        assert img.size == mask.size
+        # assert img.size == mask.size
         # return tf.adjust_hue(img, self.hue), mask
         return tf.adjust_hue(img, random.uniform(-self.hue,
                                                  self.hue)), mask
@@ -100,7 +100,7 @@ class AdjustBrightness(object):
         self.bf = bf
 
     def __call__(self, img, mask):
-        assert img.size == mask.size
+        # assert img.size == mask.size
         # return tf.adjust_brightness(img, self.bf), mask
         return tf.adjust_brightness(img,
                                     random.uniform(1 - self.bf,
@@ -112,7 +112,7 @@ class AdjustContrast(object):
         self.cf = cf
 
     def __call__(self, img, mask):
-        assert img.size == mask.size
+        # assert img.size == mask.size
         # return tf.adjust_contrast(img, self.cf), mask
         return tf.adjust_contrast(img,
                                   random.uniform(1 - self.cf,
