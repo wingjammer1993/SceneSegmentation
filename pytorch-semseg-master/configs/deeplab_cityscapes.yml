@@ -23,8 +23,8 @@ training:
         name: 'cross_entropy'
         size_average: False
     lr_schedule:
-    resume: a.pkl
-#    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/deeplab_cityscapes/19505/deeplab_cityscapes_best_model.pkl
+#    resume: a.pkl
+    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/deeplab_cityscapes/67647/deeplab_cityscapes_best_model.pkl
 #    resume: deeplab_cityscapes_best_model.pkl
     augmentations:
         gamma: 1
