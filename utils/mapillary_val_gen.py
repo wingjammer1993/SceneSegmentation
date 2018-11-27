@@ -26,8 +26,10 @@ cityscapes_mapillary_map = {'Bird' : 0, 'Ground Animal' : 0, 'Curb' : 8, 'Fence'
 
 
 def map_new_labels(n, id, colr, filenames, oldpath, newpath):
+	print("mapping new labels")
 	for fn in filenames:
 		fname = os.path.join(oldpath, fn)
+		print("working on {}".format(fname))
 		lbl = cv2.imread(fname)
 		r, c, p = lbl.shape
 		newlabel = np.zeros((r, c))

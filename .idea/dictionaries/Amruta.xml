@@ -6,8 +6,15 @@
       <w>deeplab</w>
       <w>enet</w>
       <w>filenames</w>
+      <w>fname</w>
+      <w>fnames</w>
       <w>istr</w>
       <w>mapillary</w>
+      <w>newfpath</w>
+      <w>newlabel</w>
+      <w>newpath</w>
+      <w>oldpath</w>
+      <w>segmap</w>
       <w>segnet</w>
       <w>userpass</w>
       <w>valloader</w>
