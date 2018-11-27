@@ -106,5 +106,8 @@ def unit_test():
 	cv2.imwrite("new.png", rgd)
 	print("done")
 
+
 if __name__ == '__main__':
 	unit_test()
+
+
