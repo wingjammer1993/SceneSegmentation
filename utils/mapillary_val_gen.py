@@ -70,8 +70,8 @@ def parse_config(root):
 if __name__ == '__main__':
 	# path_val = r"C:\Users\Amruta\Desktop\Project\Datasets\Mapillary"
 	# path_new_val = r"C:\Users\Amruta\Desktop\Project\Datasets\Mapillary\validation\labels"
-	path_val = r"projects/amra8468/Mapillary"
-	path_new_val = r"projects/amra8468/Mapillary/validation/labels"
+	path_val = r"/projects/amra8468/Mapillary"
+	path_new_val = r"/projects/amra8468/Mapillary/validation/labels"
 	fnames = get_immediate_subdirectories(path_val + "\labels")
 	names, ids, colors = parse_config(path_val)
 	map_new_labels(names, ids, colors, fnames, path_val + "\labels", path_new_val)
