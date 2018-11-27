@@ -9,6 +9,7 @@ from torch.utils import data
 from ptsemseg.utils import recursive_glob
 from ptsemseg.augmentations import *
 
+
 class mapillaryVistasLoader(data.Dataset):
     def __init__(self, root, split="training", img_size=(640, 1280), 
                  is_transform=True, augmentations=None):
