@@ -29,8 +29,18 @@ import visdom
 
 def validate(cfg, args):
 
-    augmentations = {'hue': args.hue, 'contrast': args.contrast, 'brightness': args.brightness,
-                     'saturation': args.saturation, 'gamma': args.gamma}
+    augmentations = {}
+    if args.hue is not None:
+        augmentations['hue'] = args.hue
+    if args.hue is not None:
+        augmentations['contrast'] = args.contrast
+    if args.hue is not None:
+        augmentations['brightness'] = args.brightness
+    if args.hue is not None:
+        augmentations['saturation'] = args.saturation
+    if args.hue is not None:
+        augmentations['gamma'] = args.gamma
+
     data_aug = get_composed_augmentations(augmentations)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -59,7 +69,8 @@ def validate(cfg, args):
     print("gamma {}".format(args.gamma))
 
     for i, (images, labels) in enumerate(valloader):
-        # vis.images(images)
+        # img = images[0, [2, 1, 0], :, :]
+        # vis.images(img)
         images = images.to(device)
         outputs = model(images)
         if cfg['model']['arch'] == 'deeplab':
@@ -98,35 +109,35 @@ if __name__ == "__main__":
         "--hue",
         nargs="?",
         type=float,
-        default=0
+        default=None
     )
 
     parser.add_argument(
         "--saturation",
         nargs="?",
         type=float,
-        default=1
+        default=None
     )
 
     parser.add_argument(
         "--gamma",
         nargs="?",
         type=float,
-        default=1
+        default=None
     )
 
     parser.add_argument(
         "--brightness",
         nargs="?",
         type=float,
-        default=1
+        default=None
     )
 
     parser.add_argument(
         "--contrast",
         nargs="?",
         type=float,
-        default=1
+        default=None
     )
 
     args = parser.parse_args()
