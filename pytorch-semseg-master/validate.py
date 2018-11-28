@@ -29,18 +29,8 @@ import visdom
 
 def validate(cfg, args):
 
-    augmentations = {}
-    if args.hue is not None:
-        augmentations['hue'] = args.hue
-    if args.hue is not None:
-        augmentations['contrast'] = args.contrast
-    if args.hue is not None:
-        augmentations['brightness'] = args.brightness
-    if args.hue is not None:
-        augmentations['saturation'] = args.saturation
-    if args.hue is not None:
-        augmentations['gamma'] = args.gamma
-
+    augmentations = {'hue': args.hue, 'contrast': args.contrast, 'brightness': args.brightness,
+                     'saturation': args.saturation, 'gamma': args.gamma}
     data_aug = get_composed_augmentations(augmentations)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -109,35 +99,35 @@ if __name__ == "__main__":
         "--hue",
         nargs="?",
         type=float,
-        default=None
+        default=0
     )
 
     parser.add_argument(
         "--saturation",
         nargs="?",
         type=float,
-        default=None
+        default=1
     )
 
     parser.add_argument(
         "--gamma",
         nargs="?",
         type=float,
-        default=None
+        default=1
     )
 
     parser.add_argument(
         "--brightness",
         nargs="?",
         type=float,
-        default=None
+        default=1
     )
 
     parser.add_argument(
         "--contrast",
         nargs="?",
         type=float,
-        default=None
+        default=1
     )
 
     args = parser.parse_args()
