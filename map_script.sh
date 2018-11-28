@@ -4,7 +4,7 @@
 #SBATCH --nodes=4
 #SBATCH --time=20:00:00
 #SBATCH --qos=normal
-#SBATCH --partition=sgpu
+#SBATCH --partition=smem
 #SBATCH --ntasks=1
 #SBATCH --job-name=map-job
 #SBATCH --output=map-job.%j.out
@@ -20,4 +20,4 @@ source ./semseg/bin/activate
 cd utils
 
 # === 5. Running the program ===
-python ./mapillary_val_gen.py
+python ./mapillary_val_gen.py $1

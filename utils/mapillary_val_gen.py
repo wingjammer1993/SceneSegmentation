@@ -7,6 +7,7 @@ import os
 import json
 import cv2
 import numpy as np
+import sys
 
 cityscapes_mapillary_map = {'Bird' : 0, 'Ground Animal' : 0, 'Curb' : 8, 'Fence' : 13,
                             'Guard Rail': 13, 'Barrier': 13, 'Wall': 12, 'Bike Lane': 7,
@@ -75,9 +76,9 @@ if __name__ == '__main__':
 	path_val = r"/projects/amra8468/Mapillary"
 	path_new_val = r"/projects/amra8468/Mapillary/validation/labels"
 	print("getting subdirectories")
-	fnames = get_immediate_subdirectories(path_val + "/labels")
+	fnames = get_immediate_subdirectories(path_val + "/" + sys.argv[1])
 	print("parsing config")
 	names, ids, colors = parse_config(path_val)
 	print("mapping labels, this may take a while..")
-	map_new_labels(names, ids, colors, fnames, path_val + "/labels", path_new_val)
+	map_new_labels(names, ids, colors, fnames, path_val + "/" + sys.argv[1], path_new_val)
 
