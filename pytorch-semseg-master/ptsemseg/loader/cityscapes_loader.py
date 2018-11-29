@@ -85,7 +85,7 @@ class cityscapesLoader(data.Dataset):
             self.root, "gtFine", self.split
         )
 
-        self.files[split] = recursive_glob(rootdir=self.images_base, suffix=".png")
+        self.files[split] = recursive_glob(rootdir=self.images_base, suffix=".jpg")
 
         self.void_classes = [0, 1, 2, 3, 4, 5, 6, 9, 10, 14, 15, 16, 18, 29, 30, -1]
         self.valid_classes = [
@@ -154,8 +154,7 @@ class cityscapesLoader(data.Dataset):
         img_path = self.files[self.split][index].rstrip()
         lbl_path = os.path.join(
             self.annotations_base,
-            img_path.split(os.sep)[-2],
-            os.path.basename(img_path)[:-15] + "gtFine_labelIds.png",
+            img_path.split(os.sep)[-1][:-3]+"png"
         )
 
         img = m.imread(img_path)
