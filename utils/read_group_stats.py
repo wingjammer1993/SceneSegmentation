@@ -25,9 +25,9 @@ def get_stats(ip_string, file_text):
 
 
 if __name__ == '__main__':
-	filenames = OrderedDict({"semseg-val-job.1335750.out": 'A', "semseg-val-job.1371191.out": 'B',
-	             "semseg-val-job.1396458.out": 'C', "semseg-val-job.1454840.out": 'D'})
-	def_vals = {'A': 0.44, 'B': 0.41, 'C': 0.38, 'D': 0.37}
+	filenames = OrderedDict({"semseg-val-job.1335752.out": 'A', "semseg-val-job.1371249.out": 'B',
+	             "semseg-val-job.1467065_Cdl.out": 'C', "semseg-val-job.1466811_Ddl.out": 'D'})
+	def_vals = {'A': 0.36, 'B': 0.33, 'C': 0.265, 'D': 0.295}
 	for k in default:
 		for filename in filenames:
 			file = open(filename)
@@ -44,7 +44,7 @@ if __name__ == '__main__':
 			# plt.axhline(y=0.36, color='r', linestyle='dotted', label='default mIOU on val set')
 		plt.xlabel(k)
 		plt.ylabel("Mean IoU")
-		plt.title("SegNet - mIOU vs. {} value".format(k))
+		plt.title("DeepLab - mIOU vs. {} value".format(k))
 		plt.legend()
 		plt.show()
 
