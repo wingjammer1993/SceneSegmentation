@@ -24,13 +24,13 @@ training:
         size_average: False
     lr_schedule:
 #    resume: a.pkl
-    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/deeplab_cityscapes/41921/deeplab_cityscapes_best_model.pkl
-#    resume: deeplab_cityscapes_best_model.pkl
-    augmentations:
-        gamma: 1
-        hue: 0.5
-        brightness: 1
-        saturation: 1
-        contrast : 1
+#    resume: /projects/amra8468/SceneSegmentation/pytorch-semseg-master/runs/deeplab_cityscapes/41921/deeplab_cityscapes_best_model.pkl
+    resume: deeplab_cityscapes_best_model.pkl
+#    augmentations:
+#        gamma: 1
+#        hue: 0.5
+#        brightness: 1
+#        saturation: 1
+#        contrast : 1
 
 
