@@ -15,10 +15,10 @@ training:
     n_workers: 5
     print_interval: 10
     optimizer:
-        name: 'sgd'
+        name: 'adam'
         lr: 1.0e-4
-        weight_decay: 0.0005
-        momentum: 0.99
+#        weight_decay: 0.0005
+#        momentum: 0.99
     loss:
         name: 'cross_entropy'
         size_average: False
