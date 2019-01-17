@@ -13,5 +13,3 @@
     Journal = {https://github.com/meetshah1995/pytorch-semseg},
     Year = {2017}
 }
-```
-
